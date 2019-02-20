@@ -19,6 +19,7 @@ The property determines the kind of chart. For now, we provide the following typ
 | Bar         |                            |
 | Radar       |                            |
 | Scatter     |                            |
+| Candle      |                            |
 
 > **Note**: Gantt chart use different data payload. We created a separated component for it. Please check [gantt](gantt.md).  
 
@@ -53,13 +54,13 @@ This record property controls the text and styles of the title. It contains the 
 | color            | Color of the title.                                          |
 | additionalStyles |                                                              |
 
-> **Note**: the available values for align, font weight and font style also apply to same fields in other properties.
+> **Note**: the available values for align, font weight and font style also apply to same type of fields in other properties.
 
 ### Subtitle
 
 This record property controls the text and styles of the subtitle. It has the same fields as the title property.
 
-Legend
+### Legend
 
 This record property controls the styles of the legend. 
 
@@ -80,7 +81,7 @@ This record property controls the styles of the legend.
 
 ### Options
 
-Via this property, we can control more details of the chart. 
+Via this property, we can control more details of the chart:
 
 * X and Y Axes:
 
