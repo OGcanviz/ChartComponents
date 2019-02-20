@@ -21,5 +21,5 @@
 | pie.startAngle  | The start angle of the pie chart.                            |
 | pie.innerRadius | The inner radius of the pie chart. The value is the ratio of the radius. For example, `0.5` means 50% of the radius. |
 | pie.semoCircle  | Show pie chart in semi circle. Can be **true** or **false**. |
-| pie.roseType    | Display pie chart in rose mode. Available values:<br />`none`:<br />![Sample Pie Chart](images/pie.png)<br />`radius`:<br />![Rose Type Radius](images/pie-radius.png)<br />`area`:<br />![Rose Type Area](images/pie-area.png) |
+| pie.roseType    | Display pie chart in rose mode. Available values:<br />`none`:<br />![Sample Pie Chart](images/pie-none.png)<br />`radius`:<br />![Rose Type Radius](images/pie-radius.png)<br />`area`:<br />![Rose Type Area](images/pie-area.png) |
 
