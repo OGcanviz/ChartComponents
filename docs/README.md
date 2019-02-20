@@ -6,7 +6,7 @@ In this guide, we will show you how to import chart components and add a pie cha
 
 Navigate to https://web.powerapps.com,  then click **Canvas app from blank**:
 
-![Create PowerApps](C:/Users/admin/Documents/GitHub/ChartComponents/docs/images/quickstart-create-app.png)
+![Create PowerApps](images/quickstart-create-app.png)
 
 Input a name, and select a format. Then click **Create**.
 
