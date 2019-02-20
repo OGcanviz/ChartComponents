@@ -1,5 +1,7 @@
 # Contribute
 
+TODO: this post is out of date. I will update it at the end  - Tyler
+
 ## Add more points
 
 We provide support for up to 100 data points. If you want to increase that number, just add a number to index array.
