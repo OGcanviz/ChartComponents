@@ -21,11 +21,11 @@ The property determines the kind of chart. For now, we provide the following typ
 | Scatter     |                            |
 | Candle      |                            |
 
-> **Note**: Gantt chart use different data payload. We created a separated component for it. Please check [gantt](gantt.md).  
+> **Note**: Gantt chart uses different data payload. We created a separated component for it. Please check [gantt](gantt.md).  
 
 ### Colors
 
-The property contains a serious of colors:
+The property contains a series of colors:
 
 ```json
 ["#31825d", "#30a667", "#5ec16c", "#f6c790", "#f7c772", "#f7b45b", "#f68f64", "#d46068", "#946eb0", "#769acc", "#60c5ea"]
@@ -92,7 +92,7 @@ Via this property, we can control more details of the chart:
   )
   ```
 
-  For more details, please check [Axes](Ax).
+  For more details, please check [Axes](Axes.md).
 
 * Chart special settings:
 
