@@ -1,180 +1,87 @@
-# Home
+# Quick Start
 
-Here is a sample to build a simple pie chart.
+In this guide, we will show you how to import chart components and add a pie chart to a canvas app.
 
-## Build a simple pie chart
-1. Navigate to https://web.powerapps.com, Click **Canvas app from blank**.
+### Create a Canvas App
 
-![Create PowerApps](images/quickstart-create-app.png)
+Navigate to https://web.powerapps.com,  then click **Canvas app from blank**:
 
-2. Click **Insert** > **Button** to insert a button
+![Create PowerApps](C:/Users/admin/Documents/GitHub/ChartComponents/docs/images/quickstart-create-app.png)
 
-![Insert Button](images/quickstart-insert-button.png)
+Input a name, and select a format. Then click **Create**.
 
-3. Click **Insert** > **Media** > **Image** to insert an image.
+![](Images/quickstart-create-app-02.png)
 
-![Insert Image](images/quickstart-insert-image.png)
+### Enable components feature
 
-4. Move and resize the image and button.
+Canvas components are now available as an experimental feature. Follow the steps below to enable it.
 
-![Move Image and Button](images/quickstart-move-controls.png)
+1. Click **File**.
+2. Click **App settings** > **Advanced settings**.
+3. Turn on **Components** in Experimental features.
 
-5. Select the button, then set the OnSelect property with following code:
+![](images/quickstart-enabled-components.png)
 
-![Move Image and Button](images/quickstart-change-button-action.png)
+Click the back arrow at the top left to navigate back to PowerApps Studio.
 
-```javascript
-UpdateContext({
-    chartOptions:{
-        type:"pie",
-        data:Table(
-            {key:"", values:[]},
-            {key:"labels", values:["Label 1","Label 2","Label 3","Label 4","Label 5"]},
-            {key:"values", values:["100","200","300","400","500"]}
-        ),
-        options:Table(
-            {key:"",value:""},
-            {key:"title", value:"Test Title 1"},
-            {key:"legend", value:"true"},
-            {key:"legend.source", value:"labels"},
-            {key:"pie.innerRadius", value:"0.5"}
-        )
-    }
-})
-```
+### Import chart components
 
-6. Copy the source code of charts
+Click **Insert**, then click **Components** > **Import component**.
 
-![Copy Chart Code](images/quickstart-copy-chart-code.png)
+![](images/quickstart-import-components.png)
 
-7. Paste the source code to the `Image` property of the image control.
+On the popup dialog, select **Chart Components V2.msapp**, then click Open.
 
-![Set Image](images/quickstart-paste-chart-code.png)
+Wait for a while, chart components will be loaded to the **Components** tab.
 
-8. Click the **Play** icon
+![](images/quickstart-components-tab.png)
 
-![Run App](images/quickstart-click-run.png)
+### Add a Pie Chart
 
-9. Click the button, you can see this chart.
+Click **Screens**, then click **Insert** > **Components** > **Chart**.
 
-![Sample Pie Chart](images/pie.png)
+![](images/quickstart-insert-chart.png)
 
-## Chart Options
+Select the newly added chart component, then configure its properties:
 
-You can see, the configuration object `chartOptions` contains 3 properties: **type**, **data** and **options**.
+![](images/quickstart-chart-properties.png)
 
-### Type
+* **Size**: 360 × 360
 
-For now, we provide following types of charts:
+* **Type**: Input "Pie".
 
-| Chart Type | Type |
-|:-:|:-:|
-| [Pie Chart](pie.md) | **pie** |
-| [Radar Chart](radar.md) | **radar** |
-| [Line Chart](line.md) | **line** |
-| [Bar Chart](bar.md) | **bar** |
-| [Scatter Chart](scatter.md) | **scatter** |
-| [Candle Stick Chart](candle.md) | **candle** |
-| [Solid Gauge Chart](solidGauge.md) | **solidGauge** |
-| [Funnel Chart](funnel.md) | **funnel** |
+* **Title**: This is a record property. Let's edit its field values in the formula bar. Update the text to "Favorite Types of Movies".
 
-### Data
+  ![](images/quickstart-chart-title.png)
 
-To support more types of data, we just split data in to one-dimensional array, and convert all items to string.
+* **Subtitle**: This is also a record property. Set its text to empty to hide it.
 
-For examples:
+  ```json
+  {
+      text: "",
+      ...
+  }
+  ```
 
-```javascript
-data:Table(
-    {key:"", values:[""]},
-    {key:"legends", values:["Test 1","Test 2","Test 3"]},
-    {key:"labels", values:["Label 1","Label 2","Label 3","Label 4","Label 5","Label 6","Label 7","Label 8"]},
-    {key:"1.y", values:["120", "132", "101", "134", "90", "230", "210", "101"]},
-    {key:"2.y", values:["220", "182", "191", "234", "290", "330", "310", "182"]},
-    {key:"3.y", values:["150", "232", "201", "154", "190", "330", "410", "190"]}
-),
-```
+* **Options**: Update its value to
 
-This sample is for a line chart with 3 lines.
+  ```json
+  Table(
+      { key:"pie.innerRadius", value:"0.7" }
+  )
+  ```
 
-#### Define Format
-In this sample, we use `{key:"", values:[""]},` to define format of all data items.
+* **Data**: Update its value to
 
-#### Multi Series
-We use key `legends` to define names of all series. You can change it to a custom value by using option `legend.source`. And the key of the data of the series will be looks like this: `index.x`, `index.y`, `index.z`. The index will start at `1`. You don't need to provide all these x, y, z in each charts.
+  ```json
+  {
+      labels: ["Comedy","Action","Romance", "Drama"],
+      table: Table(
+          {key:"values", values:[4, 5, 6, 1]}
+      )
+  }
+  ```
 
-#### Known Issues
-For now, you can only provide 100 points. If you want to display more points, please follow [this](contribute.md?id=add-more-points).
+Then we will get a chart like below:
 
-### Options
-
-You can customize the chart using `options`.
-
-For Examples:
-
-```javascript
-options:Table(
-    {key:"",value:""},
-    {key:"title", value:"Test Title 1"},
-    {key:"legend", value:"true"},
-    {key:"legend.source", value:"labels"},
-    {key:"pie.innerRadius", value:"0.5"}
-)
-```
-
-The `options` is a table with key and value. It defines how the chart looks like.
-
-You can see more information in [here](chart.md).
-
-## Display Multiple Charts
-
-If you want to display multiple charts in 1 screen, you can do it by changing context variable name:
-
-For Example:
-
-![Sample Multiple Charts](images/multiple-charts.png)
-
-1. Change context name like this:
-```javascript
-UpdateContext({
-    chartOptions:{
-        type:"bar",
-        data:Table(
-            {key:"", values:[""]},
-            {key:"legends", values:["Test 1","Test 2","Test 3"]},
-            {key:"labels", values:["Label 1","Label 2","Label 3","Label 4","Label 5","Label 6","Label 7","Label 8"]},
-            {key:"1.y", values:["120", "132", "101", "134", "90", "230", "210", "101"]},
-            {key:"2.y", values:["220", "182", "191", "234", "290", "330", "310", "182"]},
-            {key:"3.y", values:["150", "232", "201", "154", "190", "330", "410", "190"]}
-        ),
-        options:Table(
-            {key:"",value:""},
-            {key:"title", value:"Test Title 1"},
-            {key:"legend", value:"true"},
-            {key:"legend.source", value:"legends"},
-            {key:"bar.stacked", value:"false"}
-        )
-    },
-    chartOptionsPie:{
-        type:"pie",
-        data:Table(
-            {key:"", values:[""]},
-            {key:"labels", values:["Label 1","Label 2","Label 3","Label 4","Label 5","Label 6","Label 7","Label 8"]},
-            {key:"values", values:["120", "132", "101", "134", "90", "230", "210", "101"]}
-        ),
-        options:Table(
-            {key:"",value:""},
-            {key:"title", value:"Test Title 1"},
-            {key:"legend", value:"true"},
-            {key:"legend.source", value:"labels"},
-            {key:"pie.innerRadius", value:"0.5"}
-        )
-    }
-})
-```
-
-2. Change the name of the context in Image control that contains chart like this.
-
-```javascript
-Concat(Table({chart:chartOptionsPie})
-```
+![](images/quickstart-pie.png)
