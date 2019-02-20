@@ -10,7 +10,7 @@ Navigate to https://web.powerapps.com,  then click **Canvas app from blank**:
 
 Input a name, and select a format. Then click **Create**.
 
-![](Images/quickstart-create-app-02.png)
+![](images/quickstart-create-app-02.png)
 
 ### Enable components feature
 
