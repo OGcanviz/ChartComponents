@@ -4,7 +4,7 @@ In the previous post, we updated some of the chart component properties.
 
 ![](images/quickstart-chart-properties.png)
 
-In the post, we will provide more details of them.
+In this post, we are going to provide more details of them.
 
 ### Type
 
