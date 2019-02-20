@@ -1,225 +1,51 @@
 # Axes
 
-## X Axis
-
-### x
-
-Should show x axis or not. Can be **true** or **false**.
-
-### x.title
-
-Title text of the x axis
-
-### x.title.y
-
-Y offset of the title of the x axis
-
-### x.title.align
-
-Text align of the title of the x axis. Can be **left** or **right**.
-
-### x.title.fontSize
-
-Font size of the title of the x axis
-
-### x.title.fontFamily
-
-Font family of the title of the x axis
-
-### x.title.fontWeight
-
-Font weight of the title of the x axis, can be CSS font weight values.
-
-### x.title.fontStyle
-
-Font style of the title of the x axis, can be CSS font style values.
-
-### x.title.color
-
-Color of the title of the x axis
-
-### x.title.additionalStyles
-
-You can add other CSS style rules here.
-
-### x.min
-
-Min value of the x axis
-
-### x.max
-
-Max value of the x axis
-
-### x.step
-
-Values between each tick
-
-### x.height
-
-Height of the x axis
-
-### x.lineWidth
-
-Line width of the x axis
-
-### x.lineColor
-
-Line color of the x axis
-
-### x.tickLength
-
-Length of ticks of the x axis
-
-### x.tickWidth
-
-Width of ticks of the x axis
-
-### x.padRight
-
-Right padding of the x axis.
-
-### x.labels
-
-Should display labels of x axis or not. Can be **true** or **false**.
-
-### x.labels.rotation
-
-Rotation of the x labels
-
-### x.labels.format
-
-Format of the x labels
-
-### x.labels.fontSize
-
-Font size of the x labels
-
-### x.labels.fontFamily
-
-Font family of the x labels
-
-### x.labels.fontWeight
-
-Font weight of the x labels, can be CSS font weight values.
-
-### x.labels.fontStyle
-
-Font style of the x labels, can be CSS font style values.
-
-### x.labels.color
-
-Color of the x labels
-
-### x.labels.additionalStyles
-
-You can add other CSS style rules here.
-
-## Y Axis
-
-### y
-
-Should show y axis or not. Can be **true** or **false**.
-
-### y.title
-
-Title text of the y axis
-
-### y.title.align
-
-Text align of the title of the y axis. Can be **left** or **right**.
-
-### y.title.fontSize
-
-Font size of the title of the y axis
-
-### y.title.fontFamily
-
-Font family of the title of the y axis
-
-### y.title.fontWeight
-
-Font weight of the title of the y axis, can be CSS font weight values.
-
-### y.title.fontStyle
-
-Font style of the title of the y axis, can be CSS font style values.
-
-### y.title.color
-
-Color of the title of the y axis
-
-### y.title.additionalStyles
-
-You can add other CSS style rules here.
-
-### y.align
-
-Min value of the y axis
-
-### y.min
-
-Min value of the y axis
-
-### y.max
-
-Max value of the y axis
-
-### y.step
-
-Values between each tick
-
-### y.width
-
-Width of the y axis
-
-### y.lineWidth
-
-Line width of the y axis
-
-### y.lineColor
-
-Line color of the y axis
-
-### y.tickLength
-
-Length of ticks of the y axis
-
-### y.tickWidth
-
-Width of ticks of the y axis
-
-### y.padTop
-
-Top padding of the y axis
-
-### y.labels
-
-Should display labels of y axis or not. Can be **true** or **false**.
-
-### y.labels.format
-
-Format of the y labels
-
-### y.labels.fontSize
-
-Font size of the y labels
-
-### y.labels.fontFamily
-
-Font family of the y labels
-
-### y.labels.fontWeight
-
-Font weight of the y labels, can be CSS font weight values.
-
-### y.labels.fontStyle
-
-Font style of the y labels, can be CSS font style values.
-
-### y.labels.color
-
-Color of the x labels
-
-### y.labels.additionalStyles
-
-You can add other CSS style rules here.
+X Axis and Y Axis have similar options.
+
+### Basic Options
+
+| Key for X Axis | Key for Y Axis | Remark                                                       |
+| -------------- | -------------- | ------------------------------------------------------------ |
+| x              | y              | true or false to show or hide the axis.                      |
+| x.height       |                | Height of the x axis.                                        |
+|                | y.width        | Width of the y axis.                                         |
+| x.lineWidth    | y.lineWidth    | Line width of the axis.                                      |
+| x.lineColor    | y.lineColor    | Line color of the axis.                                      |
+| x.tickLength   | y.tickLength   | Tick length of the axis.                                     |
+| x.tickWidth    | y.tickWidth    | Tick width of the axis.                                      |
+| y.padRigth     |                | Padding right of the x axis.<br />TODO: not used in candle chart. I will check others. |
+|                | y.padTop       | Padding top of the y axis.                                   |
+|                | y.align        | Align of the y axis.                                         |
+| x.step         | y.step         | Step of the axis.                                            |
+| x.min          | y.min          | Min value of the axis.                                       |
+| x.max          | y.max          | Max value of the axis.                                       |
+
+TODO: candle do not have x.min/max/step
+
+### Title Options
+
+| Key for X Axis           | For for Y Axis           | Remark                               |
+| ------------------------ | ------------------------ | ------------------------------------ |
+| x.title                  | y.title                  | Title text of the axis.              |
+| x.title.y                |                          | Y offset of the title of the x axis. |
+| x.title.align            | y.title.align            | Align of the title.                  |
+| x.title.fontSize         | y.title.fontSize         | Font size of the title.              |
+| x.title.fontFamily       | y.title.fontFamily       | Font family of the title.            |
+| x.title.fontWeight       | y.title.fontWeight       | Font weight of the title.            |
+| x.title.fontStyle        | y.title.fontStyle        | Font style of the title.             |
+| x.title.color            | y.title.color            | Color of the title.                  |
+| x.title.additionalStyles | y.title.additionalStyles | Additional styles of the title.      |
+
+###  Labels Options
+
+| Key for X Axis            | For for Y Axis            | Remark                                    |
+| ------------------------- | ------------------------- | ----------------------------------------- |
+| x.labels                  | y.labels                  | true or false to show or hide the labels. |
+| x.labels.format           | y.labels.format           | Format of the labels.                     |
+| x.labels.rotation         |                           | Rotation of the labels.<br />TODO: how?   |
+| x.labels.fontSize         | y.labels.fontSize         | Font size of the labels.                  |
+| x.labels.fontFamily       | y.labels.fontFamily       | Font family of the labels.                |
+| x.labels.fontWeight       | y.labels.fontWeight       | Font weight of the labels.                |
+| x.labels.fontStyle        | y.labels.fontStyle        | Font style of the labels.                 |
+| x.labels.color            | y.labels.color            | Font color of the labels.                 |
+| x.labels.additionalStyles | y.labels.additionalStyles | Additional styles of the labels.          |
