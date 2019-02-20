@@ -123,4 +123,4 @@ Legends, labels and values are set via this property. Below is sample data for r
 
 For more details, please check the post for each chart.
 
-> **Known Issue**: For now, you can only provide 100 points. If you want to display more points, please follow [this](https://hubertsui.github.io/charts/#/contribute?id=add-more-points).
+> **Known Issue**: For now, you can only provide 100 points. If you want to display more points, please follow [this](contribute.md?id=add-more-points).
