@@ -1,5 +1,6 @@
 * Main Concepts
   * [Quick Start](/)
+  * [Properties](properties.md)
   * [Contribute](contribute.md)
 
 * All Configurations
