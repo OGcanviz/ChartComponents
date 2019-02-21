@@ -1,8 +1,10 @@
 # Solid Gauge
 
+### Sample
+
 ![Sample Solid Gauge Chart](images/solidGauge.png)
 
-### Data
+**Data**
 
 ```javascript
 {
@@ -14,7 +16,15 @@
 }
 ```
 
-### Options
+**Options**
+
+```javascript
+Table(
+    { key: "", value: "" }
+)
+```
+
+### All Options
 
 | Key                  | Remark                                                       |
 | -------------------- | ------------------------------------------------------------ |

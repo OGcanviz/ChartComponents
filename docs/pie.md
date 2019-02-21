@@ -1,8 +1,10 @@
 # Pie
 
+### Sample
+
 ![Sample Pie Chart](images/pie.png)
 
-### Data
+**Data**
 
 ```javascript
 {
@@ -13,7 +15,17 @@
     )
 }
 ```
-### Options
+**Options**
+
+```javascript
+Table(
+    { key: "legend", value: "true" },
+    { key: "legend.source", value: "labels" },
+    { key: "pie.innerRadius", value: "0.5" }
+)
+```
+
+### All Options
 
 | Key             | Remark                                                       |
 | --------------- | ------------------------------------------------------------ |

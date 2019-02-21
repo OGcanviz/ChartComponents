@@ -1,8 +1,10 @@
 # Scatter
 
+### Sample
+
 ![Sample Scatter Chart](images/scatter.png)
 
-### Data
+**Data**
 
 ```javascript
 {
@@ -18,7 +20,16 @@
 }
 ```
 
-### Options
+**Options**
+
+```javascript
+Table(
+    { key: "legend", value: "true" },
+    { key: "legend.source", value: "legends" }
+)
+```
+
+### All Options
 
 | Key                 | Remark                                                       |
 | ------------------- | ------------------------------------------------------------ |

@@ -1,8 +1,10 @@
 # Line
 
+### Sample
+
 ![Sample Line Chart](images/line.png)
 
-### Data
+**Data**
 
 ```javascript
 {
@@ -16,7 +18,17 @@
 }
 ```
 
-### Options
+**Options**
+
+```javascript
+Table(
+    { key: "legend", value: "true" },
+    { key: "legend.source", value: "legends" },
+    { key: "line.stacked", value: "true" }
+)
+```
+
+### All Options
 
 | Key              | Remark                                                       |
 | ---------------- | ------------------------------------------------------------ |

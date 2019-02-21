@@ -1,8 +1,10 @@
 # Solid Gauge
 
+### Sample
+
 ![Sample Solid Gauge Chart](images/funnel.png)
 
-### Data
+**Data**
 
 ```javascript
 {
@@ -14,7 +16,16 @@
 }
 ```
 
-### Options
+**Options**
+
+```javascript
+Table(
+    { key: "legend", value: "true" },
+    { key: "legend.source", value: "labels" }
+)
+```
+
+### All Options
 
 | Key                            | Remark                                                       |
 | ------------------------------ | ------------------------------------------------------------ |

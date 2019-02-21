@@ -1,10 +1,10 @@
 # Candle Stick
 
-
+### Sample
 
 ![Sample Candle Stick Chart](images/candle.png)
 
-### Data
+**Data**
 
 ```javascript
 {
@@ -16,6 +16,14 @@
         { key:"highest", values: [2362.94, 2308.38, 2346.92, 2363.8, 2383.76, 2391.82, 2421.15, 2440.38, 2437.42, 2441.73, 2433.89, 2443.03, 2444.8, 2427.07, 2397.94, 2378.82, 2330.88, 2338.78, 2340.71, 2324.63, 2366.16] }
     )
 }
+```
+
+**Options**
+
+```javascript
+Table(
+    { key: "legend", value: "false" }
+)
 ```
 
 ### Options
