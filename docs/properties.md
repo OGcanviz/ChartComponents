@@ -90,7 +90,7 @@ Via this property, we can control more details of the chart:
   )
   ```
 
-  For more details, please check [Axes](Axes.md).
+  For more details, please check [Axes](axes.md).
 
 * Chart special settings:
 
