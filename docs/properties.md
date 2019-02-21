@@ -123,4 +123,11 @@ Legends, labels and values are set via this property. Below is sample data for r
 
 For more details, please check the post for each chart.
 
-> **Known Issue**: For now, you can only provide 100 points. If you want to display more points, please follow [this](contribute.md?id=add-more-points).
+> **Known Issue**: 
+> By default, at most 100 points are supported. To support more points, for example 400, please follow add the following record to the chart's Options property:
+>
+> ```javascript
+> { key: "indexes", value: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20" }
+> ```
+>
+> The value contains 20 continuous numbers staring from 1 separated by comma. The maximum is 20 × 20 = 400. 

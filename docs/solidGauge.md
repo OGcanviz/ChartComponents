@@ -1,26 +1,29 @@
 # Solid Gauge
 
-Here are options to solid gauge chart.
+![Sample Solid Gauge Chart](images/solidGauge.png)
+
+### Data
 
 ```javascript
 {
-    type:"solidGauge",
-    data:Table(
-        {key:"", values:[""]},
-        {key:"labels", values:["Label 1","Label 2","Label 3","Label 4"]},
-        {key:"values", values:["50", "60", "70", "80"]}
-    ),
-    options:Table(
-        {key:"",value:""},
-        {key:"title", value:"Test Title 1"}
+    legends: ["Test 1", "Test 1"],
+    labels: ["Label 1","Label 2","Label 3","Label 4","Label 5"],
+    table: Table(
+        {key:"values", values:[90, 20, 40, 80, 50]}
     )
 }
 ```
-![Sample Solid Gauge Chart](images/solidGauge.png)
+
+### Options
+
+| Key                  | Remark                                                       |
+| -------------------- | ------------------------------------------------------------ |
+| solidGauge.itemGap   | Gap between 2 items. The default value is `5`.               |
+| solidGauge.minRadius | Min radius of the solid gauge chart. The default value is `0.3`. |
 
 You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.md?id=y-axis) of the chart by following options.
 
-| Options of Axes | Default Value |
+| Key | Default Value |
 |:-|:-:|
 | x.labels.fontSize | `12` |
 | x.labels.fontFamily |  |
@@ -35,15 +38,3 @@ You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.m
 | y.labels.fontStyle | `normal` |
 | y.labels.color | `#333333` |
 | y.labels.additionalStyles |  |
-
-## solidGauge.itemGap
-
-Gap between 2 items
-
-> The default value is `5`.
-
-## solidGauge.minRadius
-
-Min radius of the solid gauge chart
-
-> The default value is `0.3`.
