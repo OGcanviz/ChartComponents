@@ -1,30 +1,32 @@
 # Bar
 
-Here are options to bar chart.
+![Sample Bar Chart](images/bar.png)
+
+### Data
 
 ```javascript
 {
-    type:"bar",
-    data:Table(
-        {key:"", values:[""]},
-        {key:"legends", values:["Test 1","Test 2","Test 3"]},
-        {key:"labels", values:["Label 1","Label 2","Label 3","Label 4","Label 5","Label 6","Label 7","Label 8"]},
-        {key:"1.y", values:["120", "132", "101", "134", "90", "230", "210", "101"]},
-        {key:"2.y", values:["220", "182", "191", "234", "290", "330", "310", "182"]},
-        {key:"3.y", values:["150", "232", "201", "154", "190", "330", "410", "190"]}
-    ),
-    options:Table(
-        {key:"",value:""},
-        {key:"title", value:"Test Title 1"},
-        {key:"legend", value:"true"},
-        {key:"legend.source", value:"legends"},
-        {key:"bar.stacked", value:"true"}
+    legends: ["Test 1", "Test 2", "Test 3"],
+    labels: ["Label 1",  "Label 2",  "Label 3",  "Label 4",  "Label 5",  "Label 6",  "Label 7",  "Label 8"],
+    table: Table(
+        { key:"1.y", values: [120, 132, 101, 134, 90, 230, 210, 101] },
+        { key:"2.y", values: [220, 182, 191, 234, 290, 330, 310, 182] },
+        { key:"3.y", values: [150, 232, 201, 154, 190, 330, 410, 190] }
     )
 }
 ```
-![Sample Bar Chart](images/bar.png)
 
-You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.md?id=y-axis) of the chart by following options.
+### Options
+
+| Key             | Remark                                                       |
+| --------------- | ------------------------------------------------------------ |
+| bar.stacked     | Should multiple series of the same type be stacked together. Can be **true** or **false**. The default value is `false`. |
+| bar.itemGap     | Gap between 2 items. The default value is `5`.               |
+| bar.fillOpacity | Fill opacity of the bar. The default value is `1`.           |
+| bar.borderWidth | Width of the bar border. The default value is `0`.           |
+| bar.borderColor | Color of the bar border. The default value is the color of the data series. |
+
+You can also change the style of [axes](axes.md) of the chart by following options.
 
 | Options of Axes | Default Value |
 |:-|:-:|
@@ -79,33 +81,3 @@ You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.m
 | y.labels.fontStyle | `normal` |
 | y.labels.color | `#333333` |
 | y.labels.additionalStyles |  |
-
-## bar.stacked
-
-Should multiple series of the same type be stacked together. Can be **true** or **false**
-
-> The default value is `false`.
-
-## bar.itemGap
-
-Gap between 2 items
-
-> The default value is `5`.
-
-## bar.fillOpacity
-
-Fill opacity of the bar
-
-> The default value is `1`.
-
-## bar.borderWidth
-
-Width of the bar border
-
-> The default value is `0`.
-
-## bar.borderColor
-
-Color of the bar border
-
-> The default value is the color of the data series.

@@ -4,7 +4,7 @@
 
 ### Data
 
-```json
+```javascript
 {
     legends: ["Test 1", "Test 1"],
     labels: ["Label 1","Label 2","Label 3","Label 4","Label 5"],

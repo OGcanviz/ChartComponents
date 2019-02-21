@@ -9,7 +9,7 @@
     legends: ["Test 1", "Test 1"],
     labels: ["Label 1","Label 2","Label 3","Label 4","Label 5"],
     table: Table(
-        {key:"values", values:[90, 20, 40, 80, 50]}
+        { key:"values", values: [90, 20, 40, 80, 50] }
     )
 }
 ```
@@ -27,7 +27,7 @@
 | funnel.connectorColor          | You can change the color of the gap. The default value is data color. |
 | funnel.connectorOpacity        | You can also change the opacity of the gap fill. The default value is `0.3`. |
 
-**Labels Options**
+#### Labels Options
 
 A funnel chart has 3 labels. When all of them enabled, it look like below:
 

@@ -56,7 +56,7 @@ Select the newly added chart component, then configure its properties:
 
 * **Subtitle**: This is also a record property. Set its text to empty to hide it.
 
-  ```json
+  ```javascript
   {
       text: "",
       ...
@@ -65,7 +65,7 @@ Select the newly added chart component, then configure its properties:
 
 * **Options**: Update its value to
 
-  ```json
+  ```javascript
   Table(
       { key:"pie.innerRadius", value:"0.7" }
   )
@@ -73,7 +73,7 @@ Select the newly added chart component, then configure its properties:
 
 * **Data**: Update its value to
 
-  ```json
+  ```javascript
   {
       labels: ["Comedy","Action","Romance", "Drama"],
       table: Table(

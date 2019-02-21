@@ -1,30 +1,32 @@
 # Line
 
-Here are options to line chart.
+![Sample Line Chart](images/line.png)
+
+### Data
 
 ```javascript
 {
-    type:"line",
-    data:Table(
-        {key:"", values:[""]},
-        {key:"legends", values:["Test 1","Test 2","Test 3"]},
-        {key:"labels", values:["Label 1","Label 2","Label 3","Label 4","Label 5","Label 6","Label 7","Label 8"]},
-        {key:"1.y", values:["120", "132", "101", "134", "90", "230", "210", "101"]},
-        {key:"2.y", values:["220", "182", "191", "234", "290", "330", "310", "182"]},
-        {key:"3.y", values:["150", "232", "201", "154", "190", "330", "410", "190"]}
-    ),
-    options:Table(
-        {key:"",value:""},
-        {key:"title", value:"Test Title 1"},
-        {key:"legend", value:"true"},
-        {key:"legend.source", value:"legends"},
-        {key:"line.stacked", value:"true"}
+    legends: ["Test 1", "Test 2", "Test 3"],
+    labels: ["Label 1",  "Label 2",  "Label 3",  "Label 4",  "Label 5",  "Label 6",  "Label 7",  "Label 8"],
+    table: Table(
+        { key:"1.y", values: [120, 132, 101, 134, 90, 230, 210, 101] },
+        { key:"2.y", values: [220, 182, 191, 234, 290, 330, 310, 182] },
+        { key:"3.y", values: [150, 232, 201, 154, 190, 330, 410, 190] }
     )
 }
 ```
-![Sample Line Chart](images/line.png)
 
-You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.md?id=y-axis) of the chart by following options.
+### Options
+
+| Key              | Remark                                                       |
+| ---------------- | ------------------------------------------------------------ |
+| line.stacked     | Should multiple series of the same type be stacked together. Can be **true** or **false**. The default value is `false`. |
+| line.lineWidth   | Line width of the line chart. The default value is `2`.      |
+| line.fillOpacity | Fill opacity of the line area. The default value is `0`.     |
+| line.markerSize  | Size of the line marker. The default value is `16`.          |
+| line.marker      | Type of the line marker. Can be following values: `circle`. The default value is `circle`. |
+
+You can also change the style of [axes](axes.md) of the chart by following options.
 
 | Options of Axes | Default Value |
 |:-|:-:|
@@ -79,39 +81,3 @@ You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.m
 | y.labels.fontStyle | `normal` |
 | y.labels.color | `#333333` |
 | y.labels.additionalStyles |  |
-
-## line.stacked
-
-Should multiple series of the same type be stacked together. Can be **true** or **false**
-
-> The default value is `false`.
-
-## line.lineWidth
-
-Line width of the line chart
-
-> The default value is `2`.
-
-## line.fillOpacity
-
-Fill opacity of the line area
-
-> The default value is `0`.
-
-## line.markerSize
-
-Size of the line marker
-
-> The default value is `16`.
-
-## line.marker
-
-Type of the line marker.
-
-Can be following values:
-
-| Type | Marker |
-|:-:|:-:|
-| circle | <svg viewBox='-10 -10 20 20' width='20' height='20'><circle cx='0' cy='0' r='8' fill='#31825d'></circle></svg> |
-
-> The default value is `circle`.

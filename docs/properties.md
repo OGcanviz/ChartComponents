@@ -10,16 +10,14 @@ In this post, we are going to provide more details of them.
 
 The property determines the kind of chart. For now, we provide the following types:
 
-| Type        | Remarks                    |
-| ----------- | -------------------------- |
-| Pie         | TODO: add some image here? |
-| Solid Gauge |                            |
-| Funnel      |                            |
-| Line        |                            |
-| Bar         |                            |
-| Radar       |                            |
-| Scatter     |                            |
-| Candle      |                            |
+* Pie
+* Solid Gauge
+* Funnel
+* Line
+* Bar
+* Radar
+* Scatter
+* Candle
 
 > **Note**: Gantt chart uses different data payload. We created a separated component for it. Please check [gantt](gantt.md).  
 
@@ -27,7 +25,7 @@ The property determines the kind of chart. For now, we provide the following typ
 
 The property contains a series of colors:
 
-```json
+```javascript
 ["#31825d", "#30a667", "#5ec16c", "#f6c790", "#f7c772", "#f7b45b", "#f68f64", "#d46068", "#946eb0", "#769acc", "#60c5ea"]
 ```
 
@@ -85,7 +83,7 @@ Via this property, we can control more details of the chart:
 
 * X and Y Axes:
 
-  ```json
+  ```javascript
   Table(
       { key:"x.labels.color", value:"#336699" }
       { key:"y.labels.fontWeight", value:"bold" }
@@ -96,7 +94,7 @@ Via this property, we can control more details of the chart:
 
 * Chart special settings:
 
-  ```json
+  ```javascript
   Table(
       { key:"pie.radius", value:"0.95" },
       { key:"pie.innerRadius", value:"0.75" }
@@ -109,14 +107,14 @@ Via this property, we can control more details of the chart:
 
 Legends, labels and values are set via this property. Below is sample data for radar chart.
 
-```json
+```javascript
 {
     legends: ["Test 1", "Test 2", "Test 3"],
     labels: ["Label 1",  "Label 2",  "Label 3",  "Label 4",  "Label 5",  "Label 6",  "Label 7",  "Label 8"],
     table: Table(
-        {key:"1.y", values:[500, 500, 500, 500, 500, 500, 500, 500]},
-        {key:"2.y", values:[400, 400, 400, 400, 400, 400, 400, 400]},
-        {key:"3.y", values:[300, 300, 300, 300, 300, 300, 300, 310]}
+        { key:"1.y", values: [500, 500, 500, 500, 500, 500, 500, 500] },
+        { key:"2.y", values: [400, 400, 400, 400, 400, 400, 400, 400] },
+        { key:"3.y", values: [300, 300, 300, 300, 300, 300, 300, 310] }
     )
 }
 ```

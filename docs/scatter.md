@@ -1,31 +1,34 @@
 # Scatter
 
-Here are options to scatter chart.
+![Sample Scatter Chart](images/scatter.png)
+
+### Data
 
 ```javascript
 {
-    type:"scatter",
-    data:Table(
-        {key:"", values:[""]},
-        {key:"legends", values:["1990","2015"]},
-        {key:"1.x", values:["28604", "31163", "1516", "13670", "28599", "29476", "31476", "28666", "1777", "29550", "2076", "12087", "24021", "43296", "10088", "19349", "10670", "26424", "37062"]},
-        {key:"1.y", values:["77", "77.4", "68", "74.7", "75", "77.1", "75.4", "78.1", "57.7", "79.1", "67.9", "72", "75.4", "76.8", "70.8", "69.6", "67.3", "75.7", "75.4"]},
-        {key:"1.z", values:["17096869", "27662440", "1154605773", "10582082", "4986705", "56943299", "78958237", "254830", "870601776", "122249285", "20194354", "42972254", "3397534", "4240375", "38195258", "147568552", "53994605", "57110117", "252847810"]},
-        {key:"2.x", values:["44056", "43294", "13334", "21291", "38923", "37599", "44053", "42182", "5903", "36162", "1390", "34644", "34186", "64304", "24787", "23038", "19360", "38225", "53354"]},
-        {key:"2.y", values:["81.8", "81.7", "76.9", "78.5", "80.8", "81.9", "81.1", "82.8", "66.8", "83.5", "71.4", "80.7", "80.6", "81.6", "77.3", "73.13", "76.5", "81.4", "79.1"]},
-        {key:"2.z", values:["23968973", "35939927", "1376048943", "11389562", "5503457", "64395345", "80688545", "329425", "1311050527", "126573481", "25155317", "50293439", "4528526", "5210967", "38611794", "143456918", "78665830", "64715810", "321773631"]}
-    ),
-    options:Table(
-        {key:"",value:""},
-        {key:"title", value:"Test Title 1"},
-        {key:"legend", value:"true"},
-        {key:"legend.source", value:"legends"}
+    legends: ["Test 1", "Test 2"],
+    table: Table(
+        { key:"1.x", values: [28604, 31163, 1516, 13670, 28599, 29476, 31476, 28666, 1777, 29550, 2076, 12087, 24021, 43296, 10088, 19349, 10670, 26424, 37062] },
+        { key:"1.y", values: [77, 77.4, 68, 74.7, 75, 77.1, 75.4, 78.1, 57.7, 79.1, 67.9, 72, 75.4, 76.8, 70.8, 69.6, 67.3, 75.7, 75.4] },
+        { key:"1.z", values: [17096869, 27662440, 1154605773, 10582082, 4986705, 56943299, 78958237, 254830, 870601776, 122249285, 20194354, 42972254, 3397534, 4240375, 38195258, 147568552, 53994605, 57110117, 252847810] },
+        { key:"2.x", values: [44056, 43294, 13334, 21291, 38923, 37599, 44053, 42182, 5903, 36162, 1390, 34644, 34186, 64304, 24787, 23038, 19360, 38225, 53354] },
+        { key:"2.y", values: [81.8, 81.7, 76.9, 78.5, 80.8, 81.9, 81.1, 82.8, 66.8, 83.5, 71.4, 80.7, 80.6, 81.6, 77.3, 73.13, 76.5, 81.4, 79.1] },
+        { key:"2.z", values: [23968973, 35939927, 1376048943, 11389562, 5503457, 64395345, 80688545, 329425, 1311050527, 126573481, 25155317, 50293439, 4528526, 5210967, 38611794, 143456918, 78665830, 64715810, 321773631] }
     )
 }
 ```
-![Sample Scatter Chart](images/scatter.png)
 
-You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.md?id=y-axis) of the chart by following options.
+### Options
+
+| Key                 | Remark                                                       |
+| ------------------- | ------------------------------------------------------------ |
+| scatter.maxSize     | Max size of the scatter marker. The default value is `20`.   |
+| scatter.minSize     | Min size of the scatter marker. The default value is `10`.   |
+| scatter.fillOpacity | Fill opacity of the scatter marker. The default value is `1`. |
+| scatter.borderWidth | Width of the border of the scatter marker. The default value is `0`. |
+| scatter.borderColor | Color of the border of the scatter marker. The default value is the color of the data series. |
+
+You can also change the style of [axes](axes.md) of the chart by following options.
 
 | Options of Axes | Default Value |
 |:-|:-:|
@@ -83,33 +86,3 @@ You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.m
 | y.labels.fontStyle | `normal` |
 | y.labels.color | `#333333` |
 | y.labels.additionalStyles |  |
-
-## scatter.maxSize
-
-Max size of the scatter marker
-
-> The default value is `20`.
-
-## scatter.minSize
-
-Min size of the scatter marker
-
-> The default value is `10`.
-
-## scatter.fillOpacity
-
-Fill opacity of the scatter marker
-
-> The default value is `1`.
-
-## scatter.borderWidth
-
-Width of the border of the scatter marker
-
-> The default value is `0`.
-
-## scatter.borderColor
-
-Color of the border of the scatter marker
-
-> The default value is the color of the data series.
