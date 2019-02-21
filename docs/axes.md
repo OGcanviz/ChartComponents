@@ -4,23 +4,21 @@ X Axis and Y Axis have similar options.
 
 ### Basic Options
 
-| Key for X Axis | Key for Y Axis | Remark                                                       |
-| -------------- | -------------- | ------------------------------------------------------------ |
-| x              | y              | true or false to show or hide the axis.                      |
-| x.height       |                | Height of the x axis.                                        |
-|                | y.width        | Width of the y axis.                                         |
-| x.lineWidth    | y.lineWidth    | Line width of the axis.                                      |
-| x.lineColor    | y.lineColor    | Line color of the axis.                                      |
-| x.tickLength   | y.tickLength   | Tick length of the axis.                                     |
-| x.tickWidth    | y.tickWidth    | Tick width of the axis.                                      |
-| y.padRigth     |                | Padding right of the x axis.<br />TODO: not used in candle chart. I will check others. |
-|                | y.padTop       | Padding top of the y axis.                                   |
-|                | y.align        | Align of the y axis.                                         |
-| x.step         | y.step         | Step of the axis.                                            |
-| x.min          | y.min          | Min value of the axis.                                       |
-| x.max          | y.max          | Max value of the axis.                                       |
-
-TODO: candle do not have x.min/max/step
+| Key for X Axis | Key for Y Axis | Remark                                  |
+| -------------- | -------------- | --------------------------------------- |
+| x              | y              | true or false to show or hide the axis. |
+| x.height       |                | Height of the x axis.                   |
+|                | y.width        | Width of the y axis.                    |
+| x.lineWidth    | y.lineWidth    | Line width of the axis.                 |
+| x.lineColor    | y.lineColor    | Line color of the axis.                 |
+| x.tickLength   | y.tickLength   | Tick length of the axis.                |
+| x.tickWidth    | y.tickWidth    | Tick width of the axis.                 |
+| y.padRigth     |                | Padding right of the x axis.            |
+|                | y.padTop       | Padding top of the y axis.              |
+|                | y.align        | Align of the y axis.                    |
+| x.step         | y.step         | Step of the axis.                       |
+| x.min          | y.min          | Min value of the axis.                  |
+| x.max          | y.max          | Max value of the axis.                  |
 
 ### Title Options
 
@@ -42,7 +40,7 @@ TODO: candle do not have x.min/max/step
 | ------------------------- | ------------------------- | ----------------------------------------- |
 | x.labels                  | y.labels                  | true or false to show or hide the labels. |
 | x.labels.format           | y.labels.format           | Format of the labels.                     |
-| x.labels.rotation         |                           | Rotation of the labels.<br />TODO: how?   |
+| x.labels.rotation         |                           | Rotation of the labels.                   |
 | x.labels.fontSize         | y.labels.fontSize         | Font size of the labels.                  |
 | x.labels.fontFamily       | y.labels.fontFamily       | Font family of the labels.                |
 | x.labels.fontWeight       | y.labels.fontWeight       | Font weight of the labels.                |
