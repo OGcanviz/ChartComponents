@@ -27,16 +27,16 @@ Table(
 
 ### All Options
 
-| Key                            | Remark                                                       |
-| ------------------------------ | ------------------------------------------------------------ |
-| funnel.mode                    | The funnel chart has 3 modes, **ladder**<br />, **rectangle** and **pyramid**. The default value is `ladder`.<br />`ladder`<br />![Funnel Chart in Ladder Mode](C:/Users/admin/Documents/GitHub/ChartComponents/docs/images/funnel-ladder.png)<br />`rectangle`:<br />![Funnel Chart in Rectangle Mode](C:/Users/admin/Documents/GitHub/ChartComponents/docs/images/funnel-rectangle.png)<br />`pyramid`:<br />![Funnel Chart in Pyramid Mode](C:/Users/admin/Documents/GitHub/ChartComponents/docs/images/funnel-pyramid.png)<br />In pyramid mode, the area(**not height**) of parts are calculated from input values. |
-| funnel.sort                    | You can sort input values. The direction can be **none**, **ascending** and **descending**. The default value is `none`.<br />For example, sort in descending direction looks like this:<br />![Funnel Chart in Descending Mode](C:/Users/admin/Documents/GitHub/ChartComponents/docs/images/funnel-descending.png) |
-| funnel.orientation             | You can display the chart in different orientations. Can be **vertical** and **horizontal**. The default value is `vertical`.<br /> For example, horizontal mode looks like this:<br />![Funnel Chart in Horizontal Mode](images/funnel-horizontal.png) |
-| funnel.align                   | You can also align all bars aside. In horizontal mode, can be **top**, **middle** and **bottom**. In vertical mode, can be **left**, **center** and **right**. The default value is `center`.<br />  For example, align to left looks like this:<br />![Funnel Chart in Left Mode](C:/Users/admin/Documents/GitHub/ChartComponents/docs/images/funnel-left.png) |
-| funnel.maxBarLength            | You can change the max bar length of the chart. Can be **0~1**. The default value is `1`. |
-| funnel.itemGap                 | You can change gap between two bars. The default value is `10`. |
-| funnel.connectorColor          | You can change the color of the gap. The default value is data color. |
-| funnel.connectorOpacity        | You can also change the opacity of the gap fill. The default value is `0.3`. |
+| Key                     | Remark                                                       |
+| ----------------------- | ------------------------------------------------------------ |
+| funnel.mode             | The funnel chart has 3 modes, **ladder**<br />, **rectangle** and **pyramid**. The default value is `ladder`.<br />`ladder`<br />![Funnel Chart in Ladder Mode](images/funnel-ladder.png)<br />`rectangle`:<br />![Funnel Chart in Rectangle Mode](images/funnel-rectangle.png)<br />`pyramid`:<br />![Funnel Chart in Pyramid Mode](images/funnel-pyramid.png)<br />In pyramid mode, the area(**not height**) of parts are calculated from input values. |
+| funnel.sort             | You can sort input values. The direction can be **none**, **ascending** and **descending**. The default value is `none`.<br />For example, sort in descending direction looks like this:<br />![Funnel Chart in Descending Mode](/images/funnel-descending.png) |
+| funnel.orientation      | You can display the chart in different orientations. Can be **vertical** and **horizontal**. The default value is `vertical`.<br /> For example, horizontal mode looks like this:<br />![Funnel Chart in Horizontal Mode](images/funnel-horizontal.png) |
+| funnel.align            | You can also align all bars aside. In horizontal mode, can be **top**, **middle** and **bottom**. In vertical mode, can be **left**, **center** and **right**. The default value is `center`.<br />  For example, align to left looks like this:<br />![Funnel Chart in Left Mode](images/funnel-left.png) |
+| funnel.maxBarLength     | You can change the max bar length of the chart. Can be **0~1**. The default value is `1`. |
+| funnel.itemGap          | You can change gap between two bars. The default value is `10`. |
+| funnel.connectorColor   | You can change the color of the gap. The default value is data color. |
+| funnel.connectorOpacity | You can also change the opacity of the gap fill. The default value is `0.3`. |
 
 #### Labels Options
 
