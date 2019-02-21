@@ -58,7 +58,7 @@ Table(
 | solidGauge.itemGap   | Gap between 2 items. The default value is `5`.               |
 | solidGauge.minRadius | Min radius of the solid gauge chart. The default value is `0.3`. |
 
-You can also change the style of [X Axis](axes.md?id=x-axis) and [Y Axis](axes.md?id=y-axis) of the chart by following options.
+You can also change the style of [axes](axes.md) of the chart by following options.
 
 | Key | Default Value |
 |:-|:-:|
