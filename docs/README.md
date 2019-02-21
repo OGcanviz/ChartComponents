@@ -12,7 +12,7 @@ Input a name, and select a format. Then click **Create**.
 
 ![](images/quickstart-create-app-02.png)
 
-### Enable components feature
+### Enable Components Feature
 
 Canvas components are now available as an experimental feature. Follow the steps below to enable it.
 
@@ -24,7 +24,7 @@ Canvas components are now available as an experimental feature. Follow the steps
 
 Click the back arrow at the top left to navigate back to PowerApps Studio.
 
-### Import chart components
+### Import Chart Components
 
 Click **Insert**, then click **Components** > **Import component**.
 
