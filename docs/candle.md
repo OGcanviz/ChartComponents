@@ -4,6 +4,41 @@
 
 ![Sample Candle Stick Chart](images/candle.png)
 
+**Title**
+
+```javascript
+{
+    text: "Test Candle Stick",
+    ...
+}
+```
+
+**Subtitle**
+
+```javascript
+{
+    text: "",
+    ...
+}
+```
+
+**Legend**
+
+```javascript
+{
+	enabled: false
+    ...
+}
+```
+
+**Options**
+
+```javascript
+Table(
+    { key: "", value: "" }
+)
+```
+
 **Data**
 
 ```javascript
@@ -18,13 +53,7 @@
 }
 ```
 
-**Options**
-
-```javascript
-Table(
-    { key: "legend", value: "false" }
-)
-```
+It contains `open`, `close`, `lowest` and `highest` data. Refer to [Candlestick chart](https://en.wikipedia.org/wiki/Candlestick_chart) for more details.
 
 ### Options
 

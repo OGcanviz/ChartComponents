@@ -4,6 +4,42 @@
 
 ![Sample Bar Chart](images/bar.png)
 
+**Title**
+
+```javascript
+{
+    text: "Test Title 1",
+    ...
+}
+```
+
+**Subtitle**
+
+```javascript
+{
+    text: "",
+    ...
+}
+```
+
+**Legend**
+
+```javascript
+{
+	enabled: true,
+    source: "legends",
+    ...
+}
+```
+
+**Options**
+
+```javascript
+Table(
+    { key: "bar.stacked", value: "true" }
+)
+```
+
 **Data**
 
 ```javascript
@@ -18,15 +54,7 @@
 }
 ```
 
-**Options**
-
-```javascript
-Table(
-    { key: "legend", value: "true" },
-    { key: "legend.source", value: "legends" },
-    { key: "line.stacked", value: "true" }
-)
-```
+Records `1.y`, `2.y` and `3.y` are data for the first, second and third legend items.
 
 ### All Options
 

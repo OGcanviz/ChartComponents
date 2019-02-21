@@ -1,8 +1,46 @@
 # Radar
 
+### Sample
+
 ![Sample Radar Chart](images/radar.png)
 
-### Data
+**Title**
+
+```javascript
+{
+    text: "Test Title 1",
+    ...
+}
+```
+
+**Subtitle**
+
+```javascript
+{
+    text: "",
+    ...
+}
+```
+
+**Legend**
+
+```javascript
+{
+	enabled: true,
+    source: "legends",
+    ...
+}
+```
+
+**Options**
+
+```javascript
+Table(
+    { key: "radar.lineWidth", value: "1" }
+)
+```
+
+**Data**
 
 ```javascript
 {
@@ -15,6 +53,8 @@
     )
 }
 ```
+
+Records `1.y`, `2.y` and `3.y` are data for the first, second and third legend items.
 
 ### Options
 

@@ -4,15 +4,30 @@
 
 ![Sample Solid Gauge Chart](images/solidGauge.png)
 
-**Data**
+**Title**
 
 ```javascript
 {
-    legends: ["Test 1", "Test 1"],
-    labels: ["Label 1","Label 2","Label 3","Label 4","Label 5"],
-    table: Table(
-        {key:"values", values:[90, 20, 40, 80, 50]}
-    )
+    text: "Test Title 1",
+    ...
+}
+```
+
+**Subtitle**
+
+```javascript
+{
+    text: "",
+    ...
+}
+```
+
+**Legend**
+
+```javascript
+{
+	enabled: false,
+    ...
 }
 ```
 
@@ -20,8 +35,20 @@
 
 ```javascript
 Table(
-    { key: "", value: "" }
+    { key: "solidGauge.minRadius", value: "0.3" }
 )
+```
+
+**Data**
+
+```javascript
+{
+    legends: ["Test 1", "Test 1"],
+    labels: ["Label 1","Label 2","Label 3","Label 4","Label 5"],
+    table: Table(
+        { key:"values", values: [90, 20, 40, 80, 50] }
+    )
+}
 ```
 
 ### All Options

@@ -4,6 +4,42 @@
 
 ![Sample Pie Chart](images/pie.png)
 
+**Title**
+
+```javascript
+{
+    text: "Test Title 1",
+    ...
+}
+```
+
+**Subtitle**
+
+```javascript
+{
+    text: "",
+    ...
+}
+```
+
+**Legend**
+
+```javascript
+{
+	enabled: true,
+    source: "labels",
+    ...
+}
+```
+
+**Options**
+
+```javascript
+Table(
+    { key: "pie.innerRadius", value: "0.5" }
+)
+```
+
 **Data**
 
 ```javascript
@@ -14,15 +50,6 @@
         { key:"values", values:[90, 20, 40, 80, 50] }
     )
 }
-```
-**Options**
-
-```javascript
-Table(
-    { key: "legend", value: "true" },
-    { key: "legend.source", value: "labels" },
-    { key: "pie.innerRadius", value: "0.5" }
-)
 ```
 
 ### All Options

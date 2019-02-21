@@ -4,15 +4,31 @@
 
 ![Sample Solid Gauge Chart](images/funnel.png)
 
-**Data**
+**Title**
 
 ```javascript
 {
-    legends: ["Test 1", "Test 1"],
-    labels: ["Label 1","Label 2","Label 3","Label 4","Label 5"],
-    table: Table(
-        { key:"values", values: [90, 20, 40, 80, 50] }
-    )
+    text: "Test Title 1",
+    ...
+}
+```
+
+**Subtitle**
+
+```javascript
+{
+    text: "",
+    ...
+}
+```
+
+**Legend**
+
+```javascript
+{
+	enabled: true,
+    source: "labels",
+    ...
 }
 ```
 
@@ -20,16 +36,26 @@
 
 ```javascript
 Table(
-    { key: "legend", value: "true" },
-    { key: "legend.source", value: "labels" }
+    { key: "funnel.mode", value: "ladder" }
 )
+```
+
+**Data**
+
+```javascript
+{
+    labels: ["Label 1","Label 2","Label 3","Label 4","Label 5","Label 6","Label 7"],
+    table: Table(
+        { key:"values", values: [520, 200, 380, 400,510, 650, 710] }
+    )
+}
 ```
 
 ### All Options
 
 | Key                     | Remark                                                       |
 | ----------------------- | ------------------------------------------------------------ |
-| funnel.mode             | The funnel chart has 3 modes, **ladder**<br />, **rectangle** and **pyramid**. The default value is `ladder`.<br />`ladder`<br />![Funnel Chart in Ladder Mode](images/funnel-ladder.png)<br />`rectangle`:<br />![Funnel Chart in Rectangle Mode](images/funnel-rectangle.png)<br />`pyramid`:<br />![Funnel Chart in Pyramid Mode](images/funnel-pyramid.png)<br />In pyramid mode, the area(**not height**) of parts are calculated from input values. |
+| funnel.mode             | The funnel chart has 3 modes: **ladder**, **rectangle** and **pyramid**. The default value is `ladder`.<br />`ladder`<br />![Funnel Chart in Ladder Mode](images/funnel-ladder.png)<br />`rectangle`:<br />![Funnel Chart in Rectangle Mode](images/funnel-rectangle.png)<br />`pyramid`:<br />![Funnel Chart in Pyramid Mode](images/funnel-pyramid.png)<br />In pyramid mode, the area(**not height**) of parts are calculated from input values. |
 | funnel.sort             | You can sort input values. The direction can be **none**, **ascending** and **descending**. The default value is `none`.<br />For example, sort in descending direction looks like this:<br />![Funnel Chart in Descending Mode](/images/funnel-descending.png) |
 | funnel.orientation      | You can display the chart in different orientations. Can be **vertical** and **horizontal**. The default value is `vertical`.<br /> For example, horizontal mode looks like this:<br />![Funnel Chart in Horizontal Mode](images/funnel-horizontal.png) |
 | funnel.align            | You can also align all bars aside. In horizontal mode, can be **top**, **middle** and **bottom**. In vertical mode, can be **left**, **center** and **right**. The default value is `center`.<br />  For example, align to left looks like this:<br />![Funnel Chart in Left Mode](images/funnel-left.png) |
@@ -51,10 +77,10 @@ From left to right, they are labels, value labels, and percentage labels.
 | funnel.labels<br />funnel.labels.value<br />funnel.labels.percentage | Should display labels or not. Can be **true** or **false**. The default value is `false`. |
 | funnel.labels.value.dx<br />funnel.labels.percentage.dx      | X Offset of labels.                                          |
 | funnel.labels.value.dy<br />funnel.labels.percentage.dy      | X Offset of labels.                                          |
-|                                                              | How to calculate the percentage value. Available values:<br />`sum`: value / sum of all values<br />`max`: value / max value<br />`last`: value / value of last data. |
-| <br />funnel.labels.align<br />funnel.labels.value.align<br />funnel.labels.percentage.align | Alignment of the labels. Can be **left**, **center** and **right**. The default value is `center`. |
+| funnel.labels.percentage.mode                                | How to calculate the percentage value. Available values:<br />`sum`: value / sum of all values<br />`max`: value / max value<br />`last`: value / value of last data. |
+| funnel.labels.align<br />funnel.labels.value.align<br />funnel.labels.percentage.align | Alignment of the labels. Can be **left**, **center** and **right**. The default value is `center`. |
 | funnel.labels.verticalAlign<br />funnel.labels.value.verticalAlign<br />funnel.labels.percentage.verticalAlign | Vertical Alignment of the labels. Can be **top**, **middle** and **bottom**. The default value is `middle`. |
-| funnel.labels.fontSize<br />funnel.labels.value.fontSize<br />funnel.labels.percentage.fontSize | Font size of labels. The default value is `20`               |
+| funnel.labels.fontSize<br />funnel.labels.value.fontSize<br />funnel.labels.percentage.fontSize | Font size of labels.                                         |
 | funnel.labels.fontFamily<br />funnel.labels.value.fontFamily<br />funnel.labels.percentage.fontFamily | Font family of labels.                                       |
 | funnel.labels.fontWeight<br />funnel.labels.value.fontWeight<br />funnel.labels.percentage.fontWeight | Font weight of labels, can be CSS font weight values.        |
 | funnel.labels.fontStyle<br />funnel.labels.value.fontStyle<br />funnel.labels.percentage.fontStyle | Font style of labels, can be CSS font style values.          |

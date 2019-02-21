@@ -4,6 +4,42 @@
 
 ![Sample Scatter Chart](images/scatter.png)
 
+**Title**
+
+```javascript
+{
+    text: "Test Title 1",
+    ...
+}
+```
+
+**Subtitle**
+
+```javascript
+{
+    text: "",
+    ...
+}
+```
+
+**Legend**
+
+```javascript
+{
+	enabled: true,
+    source: "legends",
+    ...
+}
+```
+
+**Options**
+
+```javascript
+Table(
+    { key: "scatter.fillOpacity", value: "1" }
+)
+```
+
 **Data**
 
 ```javascript
@@ -20,14 +56,9 @@
 }
 ```
 
-**Options**
+* Records whose key starts with `1.` are data for the first legend item,  and records whose key starts with `2.` are data for the second legend item.
 
-```javascript
-Table(
-    { key: "legend", value: "true" },
-    { key: "legend.source", value: "legends" }
-)
-```
+* Records whose key ends with `.x` and `.y` determine the positions of points, and records whose key ends `.z` determines the sizes of points.
 
 ### All Options
 
