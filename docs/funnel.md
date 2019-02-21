@@ -27,18 +27,27 @@
 | funnel.connectorColor          | You can change the color of the gap. The default value is data color. |
 | funnel.connectorOpacity        | You can also change the opacity of the gap fill. The default value is `0.3`. |
 
+**Labels Options**
 
-| Key                            | Key                                  | Key                                       | Remark                                                       |
-| ------------------------------ | ------------------------------------ | ----------------------------------------- | ------------------------------------------------------------ |
-| funnel.labels                  | funnel.labels.value.                 | funnel.labels.percentage.                 | Should display labels or not. Can be **true** or **false**. The default value is `false`.<br />![Funnel Labels](images/funnel-labels.png) |
-|                                | funnel.labels.value.dx               | funnel.labels.percentage.dx               | X Offset of labels                                           |
-|                                | funnel.labels.value.dy               | funnel.labels.percentage.dy               | X Offset of labels                                           |
-|                                |                                      | funnel.labels.percentage.mode             | How to calculate the percentage value. Available values:<br />`sum`: value / sum of all values<br />`max`: value / max value<br />`last`: value / value of last data |
-| funnel.labels.align            | funnel.labels.value.align            | funnel.labels.percentage.align            | Alignment of the labels. Can be **left**, **center** and **right**. The default value is `center`. |
-| funnel.labels.verticalAlign    | funnel.labels.value.verticalAlign    | funnel.labels.percentage.verticalAlign    | Vertical Alignment of the labels. Can be **top**, **middle** and **bottom**. The default value is `middle`. |
-| funnel.labels.fontSize         | funnel.labels.value.fontSize         | funnel.labels.percentage.fontSize         | Font size of labels. The default value is `20                |
-| funnel.labels.fontFamily       | funnel.labels.value.fontFamily       | funnel.labels.percentage.fontFamily       | Font family of labels                                        |
-| funnel.labels.fontWeight       | funnel.labels.value.fontWeight       | funnel.labels.percentage.fontWeight       | Font weight of labels, can be CSS font weight values.        |
-| funnel.labels.fontStyle        | funnel.labels.value.fontStyle        | funnel.labels.percentage.fontStyle        | Font style of labels, can be CSS font style values.          |
-| funnel.labels.color            | funnel.labels.value.color            | funnel.labels.percentage.color            | Color of labels. The default value is `#ffffff`.             |
-| funnel.labels.additionalStyles | funnel.labels.value.additionalStyles | funnel.labels.percentage.additionalStyles | You can add other CSS style rules here.                      |
+A funnel chart has 3 labels. When all of them enabled, it look like below:
+
+![Funnel Labels](images/funnel-labels.png)
+
+From left to right, they are labels, value labels, and percentage labels.
+
+| Key                                                          | Remark                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| funnel.labels<br />funnel.labels.value<br />funnel.labels.percentage | Should display labels or not. Can be **true** or **false**. The default value is `false`. |
+| funnel.labels.value.dx<br />funnel.labels.percentage.dx      | X Offset of labels.                                          |
+| funnel.labels.value.dy<br />funnel.labels.percentage.dy      | X Offset of labels.                                          |
+|                                                              | How to calculate the percentage value. Available values:<br />`sum`: value / sum of all values<br />`max`: value / max value<br />`last`: value / value of last data. |
+| <br />funnel.labels.align<br />funnel.labels.value.align<br />funnel.labels.percentage.align | Alignment of the labels. Can be **left**, **center** and **right**. The default value is `center`. |
+| funnel.labels.verticalAlign<br />funnel.labels.value.verticalAlign<br />funnel.labels.percentage.verticalAlign | Vertical Alignment of the labels. Can be **top**, **middle** and **bottom**. The default value is `middle`. |
+| funnel.labels.fontSize<br />funnel.labels.value.fontSize<br />funnel.labels.percentage.fontSize | Font size of labels. The default value is `20`               |
+| funnel.labels.fontFamily<br />funnel.labels.value.fontFamily<br />funnel.labels.percentage.fontFamily | Font family of labels.                                       |
+| funnel.labels.fontWeight<br />funnel.labels.value.fontWeight<br />funnel.labels.percentage.fontWeight | Font weight of labels, can be CSS font weight values.        |
+| funnel.labels.fontStyle<br />funnel.labels.value.fontStyle<br />funnel.labels.percentage.fontStyle | Font style of labels, can be CSS font style values.          |
+| funnel.labels.color<br />funnel.labels.value.color<br />funnel.labels.percentage.color | Color of labels. The default value is `#ffffff`.             |
+| funnel.labels.additionalStyles<br />funnel.labels.value.additionalStyles<br />funnel.labels.percentage.additionalStyles | You can add other CSS style rules here.                      |
+
+
