@@ -1,4 +1,4 @@
-# Axes
+Axes
 
 X Axis and Y Axis have similar options.
 
@@ -36,14 +36,14 @@ X Axis and Y Axis have similar options.
 
 ###  Labels Options
 
-| Key for X Axis            | For for Y Axis            | Remark                                    |
-| ------------------------- | ------------------------- | ----------------------------------------- |
-| x.labels                  | y.labels                  | true or false to show or hide the labels. |
-| x.labels.format           | y.labels.format           | Format of the labels.                     |
-| x.labels.rotation         |                           | Rotation of the labels.                   |
-| x.labels.fontSize         | y.labels.fontSize         | Font size of the labels.                  |
-| x.labels.fontFamily       | y.labels.fontFamily       | Font family of the labels.                |
-| x.labels.fontWeight       | y.labels.fontWeight       | Font weight of the labels.                |
-| x.labels.fontStyle        | y.labels.fontStyle        | Font style of the labels.                 |
-| x.labels.color            | y.labels.color            | Font color of the labels.                 |
-| x.labels.additionalStyles | y.labels.additionalStyles | Additional styles of the labels.          |
+| Key for X Axis            | For for Y Axis            | Remark                                                    |
+| ------------------------- | ------------------------- | --------------------------------------------------------- |
+| x.labels                  | y.labels                  | true or false to show or hide the labels.                 |
+| x.labels.format           | y.labels.format           | Format of the labels.                                     |
+| x.labels.rotation         |                           | Rotation of the labels. Accept values between -90 and 90. |
+| x.labels.fontSize         | y.labels.fontSize         | Font size of the labels.                                  |
+| x.labels.fontFamily       | y.labels.fontFamily       | Font family of the labels.                                |
+| x.labels.fontWeight       | y.labels.fontWeight       | Font weight of the labels.                                |
+| x.labels.fontStyle        | y.labels.fontStyle        | Font style of the labels.                                 |
+| x.labels.color            | y.labels.color            | Font color of the labels.                                 |
+| x.labels.additionalStyles | y.labels.additionalStyles | Additional styles of the labels.                          |
