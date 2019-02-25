@@ -67,8 +67,8 @@ This record property controls the styles of the legend.
 | enable     | Show or hide the legend. Available values: true and false.   |
 | source     | Data source of the legend. Available values:<br />labels: get items from the Data property's labels field<br />legends: get items from the Data property's legends field |
 | placement  | Position of the legend. Available values: top, right, left and bottom. |
-| width      | Width of the legend. Effective when placement set to top or bottom. |
-| height     | Height of the legend. Effective when placement set to left or right. |
+| width      | Width of the legend. Effective when placement set to left or right. |
+| height     | Height of the legend. Effective when placement set to top or bottom. |
 | itemGap    | Gap between legend items.                                    |
 | fontSize   | Font size of the legend.                                     |
 | fontFamily | Font family of the legend.                                   |
