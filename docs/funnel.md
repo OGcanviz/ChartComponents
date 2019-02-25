@@ -1,8 +1,8 @@
-# Solid Gauge
+# Funnel
 
 ### Sample
 
-![Sample Solid Gauge Chart](images/funnel.png)
+![Sample Funnel Chart](images/funnel.png)
 
 **Title**
 

@@ -77,7 +77,7 @@ Select the newly added chart component, then configure its properties:
   {
       labels: ["Comedy","Action","Romance", "Drama"],
       table: Table(
-          {key:"values", values:[4, 5, 6, 1]}
+          { key:"values", values: [4, 5, 6, 1] }
       )
   }
   ```
