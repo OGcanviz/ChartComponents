@@ -4,17 +4,17 @@
 
 Click **Screens**, then click **Insert** > **Components** > **Chart**.
 
-![](D:/GitHub/ChartComponents/docs/images/quickstart-insert-ganttchart.png)
+![](images/quickstart-insert-ganttchart.png)
 
 Select the newly added chart component, then configure its properties:
 
-![](D:/GitHub/ChartComponents/docs/images/quickstart-ganttchart-properties.png)
+![](images/quickstart-ganttchart-properties.png)
 
 - **Size**: 1150 × 640
 
 - **Title**: This is a record property. Let's edit its field values in the formula bar. Update the text to "Favorite Types of Movies".
 
-  ![](D:/GitHub/ChartComponents/docs/images/quickstart-chart-title.png)
+  ![](images/quickstart-chart-title.png)
 
 - **Subtitle**: This is also a record property. Set its text to empty to hide it.
 
@@ -57,7 +57,7 @@ Select the newly added chart component, then configure its properties:
   }
   ```
 
-Then we will get a chart like below:<br>![](D:/GitHub/ChartComponents/docs/images/quickstart-gantt.png)
+Then we will get a chart like below:<br>![](images/quickstart-gantt.png)
 
 
 
