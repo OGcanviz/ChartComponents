@@ -1,4 +1,4 @@
-Axes
+# Axes
 
 X Axis and Y Axis have similar options.
 
