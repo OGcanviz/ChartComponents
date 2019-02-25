@@ -1,67 +1,65 @@
 # Gantt
 
-### Sample
+### Add a Gantt Chart
 
-![Sample Pie Chart](images/gantt.png)
+Click **Screens**, then click **Insert** > **Components** > **Chart**.
 
-**Title**
+![](D:/GitHub/ChartComponents/docs/images/quickstart-insert-ganttchart.png)
 
-```javascript
-{
-    text: "Test Title 1",
-    ...
-}
-```
+Select the newly added chart component, then configure its properties:
 
-**Subtitle**
+![](D:/GitHub/ChartComponents/docs/images/quickstart-ganttchart-properties.png)
 
-```javascript
-{
-    text: "Sub Title",
-    ...
-}
-```
+- **Size**: 1150 × 640
 
-**Legend**
+- **Title**: This is a record property. Let's edit its field values in the formula bar. Update the text to "Favorite Types of Movies".
 
-```javascript
-{
-	enabled: true,
-    source: "labels",
-    ...
-}
-```
+  ![](D:/GitHub/ChartComponents/docs/images/quickstart-chart-title.png)
 
-**Options**
+- **Subtitle**: This is also a record property. Set its text to empty to hide it.
 
-```javascript
-Table(
-    {key:"gantt.type", value:"month"},
-    {key:"gantt.step", value:"1"},
-    {key:"gantt.startDate", value:"1/18/2018"},
-    {key:"gantt.endDate", value:"5/25/2018"},
-    {key:"gantt.lineColor", value:"#5a5252"},
-    {key:"gantt.fontColor", value:"#5a5252"},
-    {key:"gantt.barHeight", value:"20"},
-    {key:"gantt.rowHeight", value:"50"},
-    {key:"gantt.rowHeaderHeight", value:"40"},
-    {key:"gantt.columnHeaderWidth", value:"80"},
-    {key:"gantt.rowHeaderFontSize", value:"12"},
-    {key:"gantt.rowHeaderFontSize", value:"12"}
-)
-```
+  ```javascript
+  {
+      text: "",
+      ...
+  }
+  ```
 
-**Data**
+- **Options**: Update its value to
 
-```javascript
-{
-    legends: ["Label1","Label2","Label3","Label4","Label5"],
-    clabels: ["Process 1","Process 2","Process 3","Process 4","Process 5"],
-    intervals: Table(
-                   {start:"01/10/2018",end:"02/01/2018",colorindex:1,process:1},                            {start:"03/10/2018",end:"05/01/2018",colorindex:5,process:2}
-               )
-}
-```
+  ```javascript
+  Table(
+      {key:"gantt.type", value:"month"},
+      {key:"gantt.step", value:"3"},
+      {key:"gantt.startDate", value:"01/18/2018"},
+      {key:"gantt.endDate", value:"06/25/2018"},
+  
+      {key:"gantt.lineColor", value:"#5a5252"},
+      {key:"gantt.fontColor", value:"#5a5252"},
+  
+      {key:"gantt.rowHeaderFontSize", value:"15"},
+      {key:"gantt.columnHeaderFontSize", value:"12"},
+  
+      {key:"gantt.barHeight", value:"20"},
+      {key:"gantt.rowHeight", value:"50"}
+  )
+  ```
+
+- **Data**: Update its value to
+
+  ```javascript
+  {
+      legends: ["Label1","Label2","Label3","Label4","Label5"],
+      clabels: ["Process 1","Process 2","Process 3","Process 4","Process 5"],
+      intervals: Table(
+          {start:"01/10/2018",end:"02/01/2018",colorindex:1,process:1},        		           {start:"03/10/2018",end:"05/01/2018",colorindex:5,process:2}
+      )
+  }
+  ```
+
+Then we will get a chart like below:<br>![](D:/GitHub/ChartComponents/docs/images/quickstart-gantt.png)
+
+
 
 ### All Options
 
