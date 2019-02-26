@@ -2,7 +2,7 @@
 
 ### Add a Gantt Chart
 
-Click **Screens**, then click **Insert** > **Components** > **Chart**.
+Click **Screens**, then click **Insert** > **Components** > **GanttChart**.
 
 ![](images/quickstart-insert-ganttchart.png)
 
