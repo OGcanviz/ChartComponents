@@ -78,8 +78,8 @@ From left to right, they are labels, value labels, and percentage labels.
 | funnel.labels.value.dx<br />funnel.labels.percentage.dx      | X Offset of labels.                                          |
 | funnel.labels.value.dy<br />funnel.labels.percentage.dy      | X Offset of labels.                                          |
 | funnel.labels.percentage.mode                                | How to calculate the percentage value. Available values:<br />`sum`: value / sum of all values<br />`max`: value / max value<br />`last`: value / value of last data. |
-| funnel.labels.align<br />funnel.labels.value.align<br />funnel.labels.percentage.align | Alignment of the labels. Can be **left**, **center** and **right**. The default value is `center`. |
-| funnel.labels.verticalAlign<br />funnel.labels.value.verticalAlign<br />funnel.labels.percentage.verticalAlign | Vertical Alignment of the labels. Can be **top**, **middle** and **bottom**. The default value is `middle`. |
+| funnel.labels.align                                          | Alignment of the labels. Can be **left**, **center** and **right**. The default value is `center`. |
+| funnel.labels.verticalAlign                                  | Vertical Alignment of the labels. Can be **top**, **middle** and **bottom**. The default value is `middle`. |
 | funnel.labels.fontSize<br />funnel.labels.value.fontSize<br />funnel.labels.percentage.fontSize | Font size of labels.                                         |
 | funnel.labels.fontFamily<br />funnel.labels.value.fontFamily<br />funnel.labels.percentage.fontFamily | Font family of labels.                                       |
 | funnel.labels.fontWeight<br />funnel.labels.value.fontWeight<br />funnel.labels.percentage.fontWeight | Font weight of labels, can be CSS font weight values.        |
