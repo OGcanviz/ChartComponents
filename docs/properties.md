@@ -129,3 +129,4 @@ For more details, please check the post for each chart.
 > ```
 >
 > The value contains 20 continuous numbers staring from 1 separated by comma. The maximum is 20 × 20 = 400. 
+

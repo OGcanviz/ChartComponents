@@ -2,6 +2,7 @@
   * [Quick Start](/)
   * [Properties](properties.md)
   * [Axes](axes.md)
+  * [Limitations](limitations.md)
 
 * All Charts
   * [Pie](pie.md)
