@@ -12,5 +12,5 @@
   * [Radar](radar.md)
   * [Scatter](scatter.md)
   * [Candle Stick](candle.md)
-  * [Gantt](Gantt.md)
+  * [Gantt](gantt.md)
 
