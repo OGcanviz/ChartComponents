@@ -4,7 +4,7 @@ Limitations of Charts Components.
 
 ### Legends 
 
-![Legends](images/legends.png)
+![Legends](images/Legends.png)
 
 Following table is browser compatibility of Legends.
 
