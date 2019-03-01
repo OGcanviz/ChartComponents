@@ -16,7 +16,7 @@ Chart legends do not render correctly in all web browsers.  This is a browser li
 | **Chrome**                    | **YES** |
 | **Chrome for Android**        | **YES** |
 | **Safari on iOS**             | **YES** |
-| **PowerApps app for Windows** | **YES** |
+| **PowerApps app for Windows** | **NO**  |
 | **PowerApps app for Android** | **YES** |
 | **PowerApps app for iOS**     | **YES** |
 
