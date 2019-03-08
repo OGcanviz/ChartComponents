@@ -54,17 +54,17 @@ Table(
 
 ### All Options
 
-| Key                              | Remark                                                       |
-| -------------------------------- | ------------------------------------------------------------ |
-| pie.radius                       | The outer radius of the pie chart. The value is the ratio of the max available radius. Can be `0 ~ 1`. For example, `0.5` means 50% of the chart area.<br />The default value is `1`. |
-| pie.startAngle                   | The start angle of the pie chart.                            |
-| pie.innerRadius                  | The inner radius of the pie chart. The value is the ratio of the radius. For example, `0.5` means 50% of the radius. |
-| pie.semiCircle                   | Show pie chart in semi circle. Can be **true** or **false**. |
-| pie.roseType                     | Display pie chart in rose mode. Available values:<br />`none`:<br />![Sample Pie Chart](images/pie-none.png)<br />`radius`:<br />![Rose Type Radius](images/pie-radius.png)<br />`area`:<br />![Rose Type Area](images/pie-area.png) |
-| pie.dataLabels                   | Show data labels or not. Can be **true** or **false**.       |
-| pie.dataLabels.fontFamily        | Font family of data labels.                                  |
-| pie.dataLabels.fontSize          | Font size of data labels.                                    |
-| pie.dataLabels.fontWeight        | Font weight of data labels.                                  |
-| pie.dataLabels.fontStyle         | Font style of data labels.                                   |
-| pie.dataLabels.color             | Color of data labels.                                        |
-| pie.dataLabels.additionalStyles  | Other CSS styles of data labels.                             |
+| Key                             | Remark                                                       |
+| ------------------------------- | ------------------------------------------------------------ |
+| pie.radius                      | The outer radius of the pie chart. The value is the ratio of the max available radius. Can be `0 ~ 1`. For example, `0.5` means 50% of the chart area.<br />The default value is `1`. |
+| pie.startAngle                  | The start angle of the pie chart.                            |
+| pie.innerRadius                 | The inner radius of the pie chart. The value is the ratio of the radius. For example, `0.5` means 50% of the radius. |
+| pie.semiCircle                  | Show pie chart in semi circle. Can be **true** or **false**. |
+| pie.roseType                    | Display pie chart in rose mode. Available values:<br />`none`:<br />![Sample Pie Chart](images/pie-none.png)<br />`radius`:<br />![Rose Type Radius](images/pie-radius.png)<br />`area`:<br />![Rose Type Area](images/pie-area.png) |
+| pie.dataLabels                  | Show data labels or not. Can be **true** or **false**.<br/>![Sample Pie Chart](images/pie-labels.png) |
+| pie.dataLabels.fontFamily       | Font family of data labels.                                  |
+| pie.dataLabels.fontSize         | Font size of data labels.                                    |
+| pie.dataLabels.fontWeight       | Font weight of data labels.                                  |
+| pie.dataLabels.fontStyle        | Font style of data labels.                                   |
+| pie.dataLabels.color            | Color of data labels.                                        |
+| pie.dataLabels.additionalStyles | Other CSS styles of data labels.                             |
