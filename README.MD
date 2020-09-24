@@ -4,7 +4,7 @@ We created these chart components to supplement and enhance the out of the box c
 
 ## Charts
 
-The components allow you to create several types of charts.
+The Canviz Power Apps Chart Components allow you to create several types of charts.
 
 - Pie
 - Solid Gauge
@@ -15,6 +15,12 @@ The components allow you to create several types of charts.
 - Scatter
 - Candle Stick
 - Gantt - **Yes, a Gantt chart too!**
+
+## How It Works
+
+Essentially, you add the Canviz Power Apps Chart Components to your Power App then set the properties on the components to specify the data they display and how they look and feel.  That's it.  Done!
+
+The chart components evaluate the properties and render the appropriate SVG code to create the charts.  Simple, lightweight, fast, and effective.
 
 ## Get Started
 
