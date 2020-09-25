@@ -1,10 +1,10 @@
 # Quick Start
 
-In this guide, we will show you how to import the Canviz Power Apps Chart Components and add a pie chart to a Canvas app.
+In this guide, we will show you how to Create a Canvas Power App, import the Canviz Power Apps Chart Components and add a pie chart to the Canvas Power App.
 
-### Create a Canvas App
+### Create a Canvas Power App
 
-Navigate to https://web.powerapps.com,  then click **Canvas app from blank**:
+Navigate to https://web.powerapps.com, then click **Canvas app from blank**:
 
 ![Create PowerApps](images/quickstart-create-app.png)
 
