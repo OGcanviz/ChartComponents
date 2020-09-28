@@ -8,21 +8,21 @@ Navigate to https://web.powerapps.com, then click **Canvas app from blank**:
 
 ![Create PowerApps](images/quickstart-create-app.png)
 
-Input a name, and select a format. Then click **Create**.
+Enter an **App name**, select a **Format**, and click **Create**.
 
 ![](images/quickstart-create-app-02.png)
 
 ### Enable Components Feature
 
-Canvas components are now available as an experimental feature. Follow the steps below to enable it.
+The Components feature should be enabled by default.  Double check it is enabled.
 
 1. Click **File**.
-2. Click **App settings** > **Advanced settings**.
-3. Turn on **Components** in Experimental features.
+2. Click **Settings** > **Advanced settings**.
+3. Ensure the **Components** feature is turned on.
 
 ![](images/quickstart-enabled-components.png)
 
-Click the back arrow at the top left to navigate back to PowerApps Studio.
+Click the back arrow at the top left to navigate back to Power Apps Studio.
 
 ### Import Chart Components
 
@@ -30,31 +30,37 @@ Click **Insert**, then click **Components** > **Import component**.
 
 ![](images/quickstart-import-components.png)
 
-On the popup dialog, select **Chart Components V2.msapp**, then click Open.
+Click **Upload file**, and select the **Chart Components V2.msapp** file, then click **Open**.
 
-Wait for a while, chart components will be loaded to the **Components** tab.
+Wait for a little bit and the Canvas Power Apps Chart Components will appear in the **Components** tab.
 
 ![](images/quickstart-components-tab.png)
 
 ### Add a Pie Chart
 
-Click **Screens**, then click **Insert** > **Components** > **Chart**.
+Expand the tree view, then click **Insert**.
+
+Expand the **Custom** section, then click **Chart**.
 
 ![](images/quickstart-insert-chart.png)
 
-Select the newly added chart component, then configure its properties:
+Select the newly added chart component, then configure the chart properties.
 
 ![](images/quickstart-chart-properties.png)
 
+To make a Pie chart, enter Pie in the Type property.  Pie is the default Type property.
+* **Type**: Pie
+
+To change the size of the chart, click the Advanced tab and change the Height and Width properties.
 * **Size**: 360 × 360
 
-* **Type**: Input "Pie".
+  ![](images/quickstart-size-properties.png)
 
-* **Title**: This is a record property. Let's edit its field values in the formula bar. Update the text to "Favorite Types of Movies".
+* **Title**: To change the Title, edit the Title property.  The Title property is a record property.  Edit the value in the formula bar.  Update the value for the text field in the Title property to "Favorite Types of Movies".
 
   ![](images/quickstart-chart-title.png)
 
-* **Subtitle**: This is also a record property. Set its text to empty to hide it.
+* **Subtitle**: The Subtitle is also a record property. Set its text field to empty to hide it.
 
   ```javascript
   {
@@ -62,8 +68,7 @@ Select the newly added chart component, then configure its properties:
       ...
   }
   ```
-
-* **Options**: Update its value to
+* **Options**: Options allow you to configure the look and feel of the chart to a large degree.  For example, to change the size of the inner radius for the pie chart, simply set the pie.InnerRadius property.  Update the Options property with the following code.  For more details about the various options properties, please see the dcoumentation page for each chart.
 
   ```javascript
   Table(
@@ -71,7 +76,7 @@ Select the newly added chart component, then configure its properties:
   )
   ```
 
-* **Data**: Update its value to
+* **Data**: Just like the name says, this property contains the data the chart renders.  Update the Daata property with the following code.  Keep in mind, this property can be set at runtime so you can make these charts dynamic.
 
   ```javascript
   {
@@ -82,7 +87,7 @@ Select the newly added chart component, then configure its properties:
   }
   ```
 
-Then we will get a chart like below:
+Now take a look at your chart!
 
 ![](images/quickstart-pie.png)
 
