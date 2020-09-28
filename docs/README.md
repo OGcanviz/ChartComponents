@@ -26,11 +26,13 @@ Click the back arrow at the top left to navigate back to Power Apps Studio.
 
 ### Import Chart Components
 
+Download the **[Chart Components V2.msapp](https://github.com/OGcanviz/ChartComponents/blob/master/Chart%20Components%20V2.msapp)** file.  The **Chart Components V2.msapp** file contains the Canvas Power Apps Chart Components.  Remember where you save the **Chart Components V2.msapp** file.
+
 Click **Insert**, then click **Components** > **Import component**.
 
 ![](images/quickstart-import-components.png)
 
-Click **Upload file**, and select the **Chart Components V2.msapp** file, then click **Open**.
+Click **Upload file**, and select the **Chart Components V2.msapp** file you downloaded, then click **Open**.
 
 Wait for a little bit and the Canvas Power Apps Chart Components will appear in the **Components** tab.
 
