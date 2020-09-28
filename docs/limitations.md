@@ -1,12 +1,12 @@
 # Limitations
 
-This page describes any limitations of the Chart Components.
+This page describes the currently known limitations of the Canvas Power Apps Chart Components.
 
 ### Legends 
 
 ![Legends](images/Legends.png)
 
-Chart legends do not render correctly in all web browsers.  This is a browser limitation.  The following table describes which web browsers and PowerApps clients support chart legends.
+Chart legends do not render correctly in all web browsers.  This is a browser limitation.  The following table describes which web browsers and Power Apps clients support chart legends.
 
 |                               | Support |
 | :---------------------------- | :-----: |
@@ -19,4 +19,3 @@ Chart legends do not render correctly in all web browsers.  This is a browser li
 | **PowerApps app for Windows** | **NO**  |
 | **PowerApps app for Android** | **YES** |
 | **PowerApps app for iOS**     | **YES** |
-
