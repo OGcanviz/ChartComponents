@@ -4,7 +4,7 @@
   * [Axes](axes.md)
   * [Limitations](limitations.md)
 
-* All Charts
+* Chart Details
   * [Pie](pie.md)
   * [Solid Gauge](solidGauge.md)
   * [Funnel](funnel.md)
@@ -14,4 +14,3 @@
   * [Scatter](scatter.md)
   * [Candle Stick](candle.md)
   * [Gantt](gantt.md)
-
