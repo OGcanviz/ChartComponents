@@ -1,6 +1,8 @@
 # Axes
 
-X Axis and Y Axis have similar options.
+You can modify the colors and styles of the axes on the charts.
+
+Both the X Axis and the Y Axis have similar options you can set on them.
 
 ### Basic Options
 
@@ -15,7 +17,7 @@ X Axis and Y Axis have similar options.
 | x.tickWidth    | y.tickWidth    | Tick width of the axis.                 |
 | y.padRigth     |                | Padding right of the x axis.            |
 |                | y.padTop       | Padding top of the y axis.              |
-|                | y.align        | Align of the y axis.                    |
+|                | y.align        | Alignment of the y axis.                    |
 | x.step         | y.step         | Step of the axis.                       |
 | x.min          | y.min          | Min value of the axis.                  |
 | x.max          | y.max          | Max value of the axis.                  |
@@ -26,7 +28,7 @@ X Axis and Y Axis have similar options.
 | ------------------------ | ------------------------ | ------------------------------------ |
 | x.title                  | y.title                  | Title text of the axis.              |
 | x.title.y                |                          | Y offset of the title of the x axis. |
-| x.title.align            | y.title.align            | Align of the title.                  |
+| x.title.align            | y.title.align            | Alignment of the title.                  |
 | x.title.fontSize         | y.title.fontSize         | Font size of the title.              |
 | x.title.fontFamily       | y.title.fontFamily       | Font family of the title.            |
 | x.title.fontWeight       | y.title.fontWeight       | Font weight of the title.            |
@@ -40,7 +42,7 @@ X Axis and Y Axis have similar options.
 | ------------------------- | ------------------------- | --------------------------------------------------------- |
 | x.labels                  | y.labels                  | true or false to show or hide the labels.                 |
 | x.labels.format           | y.labels.format           | Format of the labels.                                     |
-| x.labels.rotation         |                           | Rotation of the labels. Accept values between -90 and 90. |
+| x.labels.rotation         |                           | Rotation of the labels. Accepts values between -90 and 90. |
 | x.labels.fontSize         | y.labels.fontSize         | Font size of the labels.                                  |
 | x.labels.fontFamily       | y.labels.fontFamily       | Font family of the labels.                                |
 | x.labels.fontWeight       | y.labels.fontWeight       | Font weight of the labels.                                |
