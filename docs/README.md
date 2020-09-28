@@ -46,11 +46,11 @@ Expand the **Custom** section, then click **Chart**.
 
 Select the newly added chart component, then configure the chart properties.
 
-![](images/quickstart-chart-properties.png)
-
 To make a Pie chart, enter Pie in the Type property.  Pie is the default Type property.
 * **Type**: Pie
 
+  ![](images/quickstart-chart-properties.png)
+  
 To change the size of the chart, click the Advanced tab and change the Height and Width properties.
 * **Size**: 360 × 360
 
