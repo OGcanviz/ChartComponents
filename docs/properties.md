@@ -1,14 +1,12 @@
 # Chart Properties
 
-In the previous post, we updated some of the chart component properties.
+In the [Quick Start](/), you learned how to update some of the chart component properties and how to create and customize a Pie chart.
 
-![](images/quickstart-chart-properties.png)
-
-In this post, we are going to provide more details of them.
+In this guide, you will learn more details about the properties you can use to configure the charts.
 
 ### Type
 
-The property determines the kind of chart. For now, we provide the following types:
+The Type property determines the kind of chart to display. We have implemented the following types of charts so far.  Would you like to add another to the library?  That would be awesome!  Please send us a Pull Request!
 
 * Pie
 * Solid Gauge
@@ -19,32 +17,32 @@ The property determines the kind of chart. For now, we provide the following typ
 * Scatter
 * Candle
 
-> **Note**: Gantt chart uses different data payload. We created a separated component for it. Please check [gantt](gantt.md).  
+> **Note**: The Gantt chart uses different data payload schema and we created a separate component for it.  [Learn more and create a](gantt.md) Gannt chart.  
 
 ### Colors
 
-The property contains a series of colors:
+The property accepts a series of colors:
 
 ```javascript
 ["#31825d", "#30a667", "#5ec16c", "#f6c790", "#f7c772", "#f7b45b", "#f68f64", "#d46068", "#946eb0", "#769acc", "#60c5ea"]
 ```
 
-They will be used by different labels or legends. 
+They are used by the various labels and legends. 
 
 [All CSS color values](https://www.w3schools.com/colors/default.asp) are allowed. For examples: `Blue`, `#808080`. 
 
-> **Note**: This also applies to other color fields, such as title color, line color.
+> **Note**: This also applies to other color fields, such as title color, line color, etc.
 
 ### Title
 
-This record property controls the text and styles of the title. It contains the following fields:
+This record property controls the title text and style. It accepts the following fields:
 
 | Name             | Remark                                                       |
 | ---------------- | ------------------------------------------------------------ |
 | text             | Text of the title.<br />You may set it to empty to hide the title. |
 | height           | Height of the title.                                         |
-| align            | Align of the title.<br />Available values: left, center and right. |
-| paddingTop       | Padding top of the title                                     |
+| align            | Alignment of the title.<br />Available values: left, center and right. |
+| paddingTop       | Padding top of the title.                                     |
 | fontSize         | Font size of the title.                                      |
 | fontFamily       | Font family of the title.                                    |
 | fontWeight       | Font weight of the title.<br />Available values: normal and bold. |
@@ -52,7 +50,7 @@ This record property controls the text and styles of the title. It contains the 
 | color            | Color of the title.                                          |
 | additionalStyles |                                                              |
 
-> **Note**: the available values for align, font weight and font style also apply to same type of fields in other properties.
+> **Note**: the available values for align, font weight and font style also apply to the same types of fields in other properties.
 
 ### Subtitle
 
@@ -67,8 +65,8 @@ This record property controls the styles of the legend.
 | enable     | Show or hide the legend. Available values: true and false.   |
 | source     | Data source of the legend. Available values:<br />labels: get items from the Data property's labels field<br />legends: get items from the Data property's legends field |
 | placement  | Position of the legend. Available values: top, right, left and bottom. |
-| width      | Width of the legend. Effective when placement set to left or right. |
-| height     | Height of the legend. Effective when placement set to top or bottom. |
+| width      | Width of the legend. Effective when placement is set to left or right. |
+| height     | Height of the legend. Effective when placement is set to top or bottom. |
 | itemGap    | Gap between legend items.                                    |
 | fontSize   | Font size of the legend.                                     |
 | fontFamily | Font family of the legend.                                   |
@@ -79,7 +77,7 @@ This record property controls the styles of the legend.
 
 ### Options
 
-Via this property, we can control more details of the chart:
+This property allows you to control even more details of the chart:
 
 * X and Y Axes:
 
@@ -101,11 +99,11 @@ Via this property, we can control more details of the chart:
   )
   ```
 
-  For more details, please check the post for each chart.
+  For more details, please check the documentation for each chart type.
 
 ### Data
 
-Legends, labels and values are set via this property. Below is sample data for radar chart.
+Legends, labels and values are set via this property. Below is sample data for radar chart.  The data, just like all the properties, may be passed in dynamically at run time.
 
 ```javascript
 {
@@ -119,14 +117,13 @@ Legends, labels and values are set via this property. Below is sample data for r
 }
 ```
 
-For more details, please check the post for each chart.
+  For more details, please check the documentation for each chart type.
 
 > **Known Issue**: 
-> By default, at most 100 points are supported. To support more points, for example 400, please follow add the following record to the chart's Options property:
+> By default, the Canvas Power Apps Chart Components support a maximum of 100 points. If you wish to modify the code to support more points, for example 400, then add the following record to a charts Options property:
 >
 > ```javascript
 > { key: "indexes", value: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20" }
 > ```
 >
-> The value contains 20 continuous numbers staring from 1 separated by comma. The maximum is 20 × 20 = 400. 
-
+> The value contains 20 continuous numbers starting at 1, and separated by commas. 20 × 20 = 400
