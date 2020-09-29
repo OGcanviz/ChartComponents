@@ -1,6 +1,6 @@
 # Quick Start
 
-In this guide, we will show you how to Create a Canvas Power App, import the Canviz Power Apps Chart Components and add a pie chart to the Canvas Power App.
+In this guide, we will show you how to Create a Canvas Power App, import the Canvas Power Apps Chart Components and add a pie chart to the Canvas Power App.
 
 ### Create a Canvas Power App
 
@@ -78,7 +78,7 @@ To change the size of the chart, click the Advanced tab and change the Height an
   )
   ```
 
-* **Data**: Just like the name says, this property contains the data the chart renders.  Update the Daata property with the following code.  Keep in mind, this property can be set at runtime so you can make these charts dynamic.
+* **Data**: Just like the name says, this property contains the data the chart renders.  Update the Data property with the following code.  Keep in mind, this property can be set at runtime so you can make these charts dynamic.
 
   ```javascript
   {
