@@ -4,6 +4,8 @@
 
 ![Sample Radar Chart](images/radar.png)
 
+The following property values create the sample chart pictured above.
+
 **Title**
 
 ```javascript
@@ -54,7 +56,7 @@ Table(
 }
 ```
 
-Records `1.y`, `2.y` and `3.y` are data for the first, second and third legend items.
+Records `1.y`, `2.y` and `3.y` are the data for the first, second and third legend items.
 
 ### Options
 
@@ -67,7 +69,7 @@ Records `1.y`, `2.y` and `3.y` are data for the first, second and third legend i
 | radar.backgroundOdd  | Background of the odd plot area. The default value is `#FFFFFF`. |
 | radar.backgroundEven | Background of the even plot area. The default value is `#FAF4FB`. |
 
-You can also change the style of [Y Axis](axes.md) of the chart by following options.
+You can also change the style of [Y Axis](axes.md) of the chart by using the following options.
 
 | Options of Y Axis | Default Value |
 |:-|:-:|
