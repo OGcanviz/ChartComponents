@@ -4,6 +4,8 @@
 
 ![Sample Bar Chart](images/bar.png)
 
+The following property values create the sample chart pictured above.
+
 **Title**
 
 ```javascript
@@ -60,13 +62,13 @@ Records `1.y`, `2.y` and `3.y` are data for the first, second and third legend i
 
 | Key             | Remark                                                       |
 | --------------- | ------------------------------------------------------------ |
-| bar.stacked     | Should multiple series of the same type be stacked together. Can be **true** or **false**. The default value is `false`. |
+| bar.stacked     | Should multiple series of the same type be stacked together? Can be **true** or **false**. The default value is `false`. |
 | bar.itemGap     | Gap between 2 items. The default value is `5`.               |
 | bar.fillOpacity | Fill opacity of the bar. The default value is `1`.           |
 | bar.borderWidth | Width of the bar border. The default value is `0`.           |
 | bar.borderColor | Color of the bar border. The default value is the color of the data series. |
 
-You can also change the style of [axes](axes.md) of the chart by following options.
+You can also change the style of the chart [axes](axes.md) with the following options.
 
 | Options of Axes | Default Value |
 |:-|:-:|
