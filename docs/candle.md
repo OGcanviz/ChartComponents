@@ -4,6 +4,8 @@
 
 ![Sample Candle Stick Chart](images/candle.png)
 
+The following property values create the sample chart pictured above.
+
 **Title**
 
 ```javascript
@@ -53,7 +55,7 @@ Table(
 }
 ```
 
-It contains `open`, `close`, `lowest` and `highest` data. Refer to [Candlestick chart](https://en.wikipedia.org/wiki/Candlestick_chart) for more details.
+Data categories include `open`, `close`, `lowest` and `highest`. Refer to this [Candlestick chart](https://en.wikipedia.org/wiki/Candlestick_chart) article for more details about these data categories and how they correlate to how the chart looks.
 
 ### Options
 
@@ -67,7 +69,7 @@ It contains `open`, `close`, `lowest` and `highest` data. Refer to [Candlestick 
 | candle.fillOpacity     | Fill opacity of the bar. The default value is `1`.           |
 | candle.borderWidth     | Width of the border. The default value is `1`.               |
 
-You can also change the style of [axes](axes.md) of the chart by following options.
+You can also change the style of the chart [axes](axes.md) with the following options.
 
 | Options of Axes | Default Value |
 |:-|:-:|

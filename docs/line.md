@@ -4,6 +4,8 @@
 
 ![Sample Line Chart](images/line.png)
 
+The following property values create the sample chart pictured above.
+
 **Title**
 
 ```javascript
@@ -54,19 +56,19 @@ Table(
 }
 ```
 
-Records `1.y`, `2.y` and `3.y` are data for the first, second and third legend items.
+Records `1.y`, `2.y` and `3.y` are the data for the first, second and third legend items.
 
 ### All Options
 
 | Key              | Remark                                                       |
 | ---------------- | ------------------------------------------------------------ |
-| line.stacked     | Should multiple series of the same type be stacked together. Can be **true** or **false**. The default value is `false`. |
+| line.stacked     | Should multiple series of the same type be stacked together? Can be **true** or **false**. The default value is `false`. |
 | line.lineWidth   | Line width of the line chart. The default value is `2`.      |
 | line.fillOpacity | Fill opacity of the line area. The default value is `0`.     |
 | line.markerSize  | Size of the line marker. The default value is `16`.          |
 | line.marker      | Type of the line marker. Can be following values: `circle`. The default value is `circle`. |
 
-You can also change the style of [axes](axes.md) of the chart by following options.
+You can also change the style of the chart [axes](axes.md) by using the following options.
 
 | Options of Axes | Default Value |
 |:-|:-:|
