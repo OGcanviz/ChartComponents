@@ -4,6 +4,8 @@
 
 ![Sample Scatter Chart](images/scatter.png)
 
+The following property values create the sample chart pictured above.
+
 **Title**
 
 ```javascript
@@ -56,9 +58,9 @@ Table(
 }
 ```
 
-* Records whose key starts with `1.` are data for the first legend item,  and records whose key starts with `2.` are data for the second legend item.
+* Records whose key starts with `1.` are data for the first legend item, and records whose key starts with `2.` are data for the second legend item.
 
-* Records whose key ends with `.x` and `.y` determine the positions of points, and records whose key ends `.z` determines the sizes of points.
+* Records whose key ends with `.x` and `.y` determine the positions of points, and records whose key ends with `.z` determine the sizes of points.
 
 ### All Options
 
@@ -70,7 +72,7 @@ Table(
 | scatter.borderWidth | Width of the border of the scatter marker. The default value is `0`. |
 | scatter.borderColor | Color of the border of the scatter marker. The default value is the color of the data series. |
 
-You can also change the style of [axes](axes.md) of the chart by following options.
+You can also change the style of the chart [axes](axes.md) by using the following options.
 
 | Options of Axes | Default Value |
 |:-|:-:|
