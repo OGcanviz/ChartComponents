@@ -4,6 +4,8 @@
 
 First follow the steps in the [quick start guide](readme.md) to Create a Canvas Power App, Enable the Components Feature, and Import Chart Components.
 
+After you have the prerequisites installed, then continue and add the Gantt chart component to a Canvas Power App.
+
 ### Add a Gantt Chart
 
 In the Power Apps editor open the **Tree view**. 
@@ -22,7 +24,7 @@ Select the newly added chart component, then configure the chart properties.
 
 ![](images/quickstart-ganttchart-properties.png)
 
-o change the size of the chart, click the Advanced tab and change the Height and Width properties.
+To change the size of the chart, click the Advanced tab and change the Height and Width properties.
 
 - **Size**: 1150 × 640
 
