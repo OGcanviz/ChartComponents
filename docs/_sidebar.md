@@ -2,6 +2,7 @@
   * [Quick Start](/)
   * [Properties](properties.md)
   * [Axes](axes.md)
+  * [Data Integration](data-integration.md)
   * [Limitations](limitations.md)
 
 * Chart Details
