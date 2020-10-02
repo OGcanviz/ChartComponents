@@ -24,9 +24,7 @@ Select the newly added chart component, then configure the chart properties.
 
 ![](images/quickstart-ganttchart-properties.png)
 
-To change the size of the chart, click the Advanced tab and change the Height and Width properties.
-
-- **Size**: 1150 × 640
+- **Size**: To change the size of the chart, click the Advanced tab and change the Height and Width properties.  In this example we use 1150 × 640.
 
 - **Title**: To change the Title, edit the Title property. The Title property is a record property. Edit the value in the formula bar. Update the value for the text field in the Title property to "Important Project".
 
