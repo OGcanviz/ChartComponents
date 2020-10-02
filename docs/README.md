@@ -40,7 +40,7 @@ Wait for a little bit and the Canvas Power Apps Chart Components will appear in 
 
 ### Add a Pie Chart
 
-Click the Screesns tab, then select Screen1.
+Click the **Screens** tab, then select **Screen1**.
 
 ![](images/quickstart-select-screen.png)
 
