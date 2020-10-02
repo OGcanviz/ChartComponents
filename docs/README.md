@@ -1,6 +1,6 @@
 # Quick Start
 
-In this guide, we will show you how to Create a Canvas Power App, import the Canvas Power Apps Chart Components and add a pie chart to the Canvas Power App.
+In this guide, we will show you how to Create a Canvas Power App, import the Canvas Power Apps Chart Components and add a pie chart to the Canvas Power App.  We will also show you how to change the Pie chart to a different chart type.
 
 ### Create a Canvas Power App
 
@@ -40,7 +40,11 @@ Wait for a little bit and the Canvas Power Apps Chart Components will appear in 
 
 ### Add a Pie Chart
 
-Expand the tree view, then click **Insert**.
+Click the Screesns tab, then select Screen1.
+
+![](images/quickstart-select-screen.png)
+
+In the tree view, click **Insert**.
 
 Expand the **Custom** section, then click **Chart**.
 
@@ -93,3 +97,23 @@ Now take a look at your chart!
 
 ![](images/quickstart-pie.png)
 
+## Other Chart Types
+
+To implement other chart types simply change the **Type** property for the Chart component.  
+
+The following Types are currently available.
+
+- Pie
+- Solid Gauge
+- Funnel
+- Line
+- Bar
+- Radar
+- Scatter
+- Candle Stick
+
+For example, to change the chart to a Solid Gauge chart, select the Chart component, then change the **Type** property to **Solid Gauge**.
+
+![](images/quickstart-change-type.png)
+
+> **Note:** The Gantt chart uses a seperate component.  To create a Gantt chart follow the [Gantt chart instructions](gantt.md).
