@@ -2,9 +2,9 @@
 
 ### Prerequisites
 
-First follow the steps in the [quick start guide](/) to Create a Canvas Power App, Enable the Components Feature, and Import Chart Components.
+First follow the steps in the [quick start guide](/) to Create a Canvas Power App, Enable the Components Feature, and Import the Canvas Power Apps Chart Components.
 
-After you have the prerequisites installed, then continue and add the Gantt chart component to a Canvas Power App.
+After you have the prerequisites completed, then continue and add the Gantt chart component to a Canvas Power App.
 
 ### Add a Gantt Chart
 
