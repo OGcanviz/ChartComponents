@@ -4,6 +4,8 @@
 
 ![Sample Pie Chart](images/pie.png)
 
+The following property values create the sample chart pictured above.
+
 **Title**
 
 ```javascript
