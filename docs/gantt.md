@@ -1,8 +1,20 @@
-# Gantt
+# Gantt Chart
+
+### Prerequisites
+
+First follow the steps in the [quick start guide](readme.md) to Create a Canvas Power App, Enable the Components Feature, and Import Chart Components.
 
 ### Add a Gantt Chart
 
-Click **Screens**, then click **Insert** > **Components** > **GanttChart**.
+In the Power Apps editor open the **Tree view**. 
+
+Click the **Screens** tab, then select **Screen1**.
+
+![](images/quickstart-select-screen.png)
+
+In the left menu, click **Insert**.
+
+Expand the **Custom** section, then click **GanttChart**.
 
 ![](images/quickstart-insert-ganttchart.png)
 
