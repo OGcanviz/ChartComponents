@@ -40,7 +40,11 @@ Wait for a little bit and the Canvas Power Apps Chart Components will appear in 
 
 ### Add a Pie Chart
 
-Expand the tree view, then click **Insert**.
+Click the Screesns tab, then select Screen1.
+
+![](images/quickstart-select-screen.png)
+
+In the tree view, click **Insert**.
 
 Expand the **Custom** section, then click **Chart**.
 
@@ -93,3 +97,10 @@ Now take a look at your chart!
 
 ![](images/quickstart-pie.png)
 
+## Other Chart Types
+
+To implement other chart types simply change the **Type** property for the Chart component.  
+
+For example, to change the chart to a Solid Guage chart, select the Chart component, then change the **Type** property to **Solid Guage**.
+
+![](images/quickstart-change-type.png)
