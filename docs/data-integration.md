@@ -9,9 +9,7 @@ First follow the steps in the [Quick Start guide](/).  This guide will show you 
 ### Upload Excel File To OneDrive for Business
 
 1. Download the [ChartData.xlsx](/../master/ChartData.xlsx) Excel Workbook and save it to your computer.
-
 1. Log in to OneDrive for Business and upload the **ChartData.xlsx** file.
-
 1. Remember where you upload the file.
 
 ### Add One Drive for Business Connection
@@ -19,29 +17,17 @@ First follow the steps in the [Quick Start guide](/).  This guide will show you 
 Now you will connect the PowerApp to the Excel file you uploaded to OneDrive.  The Excel files has a Data Table in it named Movies.
 
 1. In the Power Apps editor, open the Power App you created in the Quick Start guide.
-
 1. Expand the left menu.
-
 1. Select **Data**.
-
 1. In the searchbox, enter **OneDrive for Business**.
-
 1. Select the **OneDrive for Business** connector in the list.
-
   ![](images/data-integration-onedrive-connector.png)
-  
 1. Click **Add a connection**.
-
 1. Click **Connect**.
-
 1. Log in if prompted.
-
 1. Browse to the OneDrive location where you saved the ChartData.xlsx file.
-
 1. Select the **ChartData.xlsx** file.
-
 1. Check the **Movies** checkbox.
-
 1. Click **Connect**.
   
 ### Return Data From Excel
@@ -71,7 +57,9 @@ You should now see the following data in the collection. If you do not see any d
 ### Process Data And Bind To Chart
 
 1. Add another Button to the Power App.
-1. Add the following code the the OnSelect event to create the gblData global property with data from the colMovies collection.
+1. Change the button's **Text** property to:
+  ```Process And Bind Data```  
+1. Add the following code the the **OnSelect** event to create the **gblData** global variable with data from the colMovies collection.
   ```
   Set(
     gblData,
@@ -94,5 +82,12 @@ You should now see the following data in the collection. If you do not see any d
     }
   );
   ```
+1. Hold down the **ALT key on the keyboard** and click the **Process And Bind Data** button.  
+1. You should now see the following data in the chart.
+  ![](images/data-integration-complete.png)
   
-  ###
+### Celebrate
+
+Congratulations, now you know a pattern to integrate the charts with any data source.
+
+Now take a moment to spread the word about these lovely components!  :)
