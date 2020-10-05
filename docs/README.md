@@ -1,6 +1,14 @@
 # Quick Start
 
-In this guide, we will show you how to Create a Canvas Power App, import the Canvas Power Apps Chart Components and add a pie chart to the Canvas Power App.  We will also show you how to change the Pie chart to a different chart type.
+In this guide, you will learn how to quickly use the Canvas Power Apps Chart Components in a Power App.  You will create a Canvas Power App, import the Canvas Power Apps Chart Components, and add a pie chart to the Canvas Power App.  You will also learn how to change the Pie chart to a different chart type.
+
+> **Note:** The estimated time to complete these steps is 5-15 minutes.
+
+When you are done your charts will look like this.
+
+![](images/quickstart-pie.png)
+
+![](images/quickstart-change-type.png)
 
 ### Create a Canvas Power App
 
@@ -96,6 +104,10 @@ To change the size of the chart, click the Advanced tab and change the Height an
       )
   }
   ```
+
+> **Note:** To learn how to integrate dynamic data sources with your charts see [this article](data-integration.md).
+
+To create a Gantt chart follow the [Gantt chart instructions](gantt.md).
 
 Now take a look at your chart!
 
