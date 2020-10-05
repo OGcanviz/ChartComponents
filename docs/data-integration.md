@@ -82,6 +82,9 @@ You should now see the following data in the collection. If you do not see any d
     }
   );
   ```
+  
+### Test
+
 1. Hold down the **ALT key on the keyboard** and click the **Process And Bind Data** button.  
 1. You should now see the following data in the chart.
   ![](images/data-integration-complete.png)
