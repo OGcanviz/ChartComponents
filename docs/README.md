@@ -50,7 +50,9 @@ Expand the **Custom** section, then click **Chart**.
 
 ![](images/quickstart-insert-chart.png)
 
-Select the newly added chart component, then configure the chart properties.
+### Configure Chart Appearance
+
+Select the newly added chart component, then configure the chart properties to adjust how it looks.
 
 To make a Pie chart, enter Pie in the Type property.  Pie is the default Type property.
 * **Type**: Pie
@@ -81,6 +83,8 @@ To change the size of the chart, click the Advanced tab and change the Height an
       { key:"pie.innerRadius", value:"0.7" }
   )
   ```
+
+### Define Chart Data
 
 * **Data**: Just like the name says, this property contains the data the chart renders.  Update the Data property with the following code.  Keep in mind, this property can be set at runtime so you can make these charts dynamic.
 
