@@ -40,6 +40,7 @@ It's super easy.  Read the [documentation](https://ogcanviz.github.io/ChartCompo
 | Development                                 | Catherine Xiao, (Canviz)    					|
 | Testing                                  		| Cathy Cheng, (Canviz)    					|
 | Testing, Development                        | Matt Schuessler, (Canviz)    					|
+| Testing                        | Christina Wheeler, (Canviz)    					|
 
 ### Follow Up
 
