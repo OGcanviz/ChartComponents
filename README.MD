@@ -27,3 +27,33 @@ The chart components evaluate the properties and render the appropriate SVG code
 ## Get Started
 
 It's super easy.  Read the [documentation](https://ogcanviz.github.io/ChartComponents/#/).
+
+
+## Contributors ##
+| Roles                                    		| Author(s)                                			|
+| ------------------------------------------- | ------------------------------------------------- |
+| Project Lead / Architect / Documentation / Development    | Todd Baginski (Microsoft MVP, Canviz) @tbag		|
+| Development                            			| Hubert Sui (Canviz) @hubertsui  						|
+| Development                            			| Cloris Sun (Canviz) @cloriss 						|
+| Development                                 | Chad Liu, (Canviz) @chadliuxc   					|
+| Development                                 | Tyler Lu, (Canviz) @TylerLu    					|
+| Development                                 | Catherine Xiao, (Canviz)    					|
+| Testing                                  		| Cathy Cheng, (Canviz)    					|
+| Testing, Development                        | Matt Schuessler, (Canviz)    					|
+
+### Follow Up
+
+For more awesome PowerApps tips, tricks, and samples, check out our blogs.
+
+[Todd Baginski's Blog](http://www.toddbaginski.com/blog)
+
+[Canviz Blog](http://www.canviz.com)
+
+## Version history ##
+
+| Version | Date          		| Comments        |
+| ------- | ------------------- | --------------- |
+| 1.0     | October 12, 2020 	| Initial release |
+
+## Disclaimer ##
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
