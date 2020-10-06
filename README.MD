@@ -4,6 +4,8 @@
 
 We created these chart components to supplement and enhance the out of the box charting controls Power Apps comes with.  We hope you enjoy using them in your own Power Apps solutions.
 
+We encourage and welcome community contributions!  Please submit a Pull Request if you have a new chart to add or enhancements to the existing charts.
+
 ## Charts
 
 The Canviz Power Apps Chart Components allow you to create several types of charts.
