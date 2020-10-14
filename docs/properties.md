@@ -120,7 +120,7 @@ Legends, labels and values are set via this property. Below is sample data for r
   For more details, please check the documentation for each chart type.
 
 > **Known Issue**: 
-> By default, the Canvas Power Apps Chart Components support a maximum of 100 points. If you wish to modify the code to support more points, for example 400, then add the following record to a charts Options property:
+> By default, the Canviz Power Apps Chart Components support a maximum of 100 points. If you wish to modify the code to support more points, for example 400, then add the following record to a charts Options property:
 >
 > ```javascript
 > { key: "indexes", value: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20" }
