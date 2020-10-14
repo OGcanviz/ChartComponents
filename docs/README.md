@@ -1,6 +1,6 @@
 # Quick Start
 
-In this guide, you will learn how to quickly use the Canvas Power Apps Chart Components in a Power App.  You will create a Canvas Power App, import the Canvas Power Apps Chart Components, and add a pie chart to the Canvas Power App.  You will also learn how to change the Pie chart to a different chart type.
+In this guide, you will learn how to quickly use the Canviz Power Apps Chart Components in a Power App.  You will create a Canvas Power App, import the Canviz Power Apps Chart Components, and add a pie chart to the Canvas Power App.  You will also learn how to change the Pie chart to a different chart type.
 
 > **Note:** The estimated time to complete these steps is 5-15 minutes.
 
@@ -34,7 +34,7 @@ Click the back arrow at the top left to navigate back to Power Apps Studio.
 
 ### Import Chart Components
 
-Download the **[Chart Components V2.msapp](https://github.com/OGcanviz/ChartComponents/blob/master/Chart%20Components%20V2.msapp)** file.  The **Chart Components V2.msapp** file contains the Canvas Power Apps Chart Components.  Remember where you save the **Chart Components V2.msapp** file.
+Download the **[Chart Components V2.msapp](https://github.com/OGcanviz/ChartComponents/blob/master/Chart%20Components%20V2.msapp)** file.  The **Chart Components V2.msapp** file contains the Canviz Power Apps Chart Components.  Remember where you save the **Chart Components V2.msapp** file.
 
 Click **Insert**, then click **Components** > **Import component**.
 
@@ -42,7 +42,7 @@ Click **Insert**, then click **Components** > **Import component**.
 
 Click **Upload file**, and select the **Chart Components V2.msapp** file you downloaded, then click **Open**.
 
-Wait for a little bit and the Canvas Power Apps Chart Components will appear in the **Components** tab.
+Wait for a little bit and the Canviz Power Apps Chart Components will appear in the **Components** tab.
 
 ![](images/quickstart-components-tab.png)
 

@@ -37,7 +37,7 @@ Now you will connect the PowerApp to the Excel file you uploaded to OneDrive.  T
   ```Get Data From Excel```  
 1. Add the following code to the Button's **OnSelect** event to return the data from Excel and store it in a local collection named **colMovies**.
   ```ClearCollect(colMovies, Movies)```
-1. Hold down the **ALT key on the keyboard** and click the **Return Data From Excel** button.  
+1. Hold down the **ALT key on the keyboard** and click the **Get Data From Excel** button.  
 1. Click **File**.
 1. Click **Collections**.
 1. Click **colMovies**.

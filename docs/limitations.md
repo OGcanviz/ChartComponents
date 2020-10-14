@@ -1,6 +1,6 @@
 # Limitations
 
-This page describes the currently known limitations of the Canvas Power Apps Chart Components.
+This page describes the currently known limitations of the Canviz Power Apps Chart Components.
 
 ### Legends 
 
