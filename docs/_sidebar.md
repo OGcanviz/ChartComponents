@@ -15,3 +15,5 @@
   * [Scatter](scatter.md)
   * [Candle Stick](candle.md)
   * [Gantt](gantt.md)
+
+![](https://ogcanviz.github.io/ChartComponents/images/Canviz-100x100.png)
