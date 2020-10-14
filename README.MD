@@ -6,7 +6,7 @@ We encourage and welcome community contributions!  Please submit a Pull Request 
 
 ## Get Started
 
-It's super easy!  Read the [Quick Start](https://ogcanviz.github.io/ChartComponents/#/).
+It's super easy!  Read the <a href="https://ogcanviz.github.io/ChartComponents/#/" target="_blank">Quick Start</a>.
 
 ![Canviz Power Apps Chart Components Animated GIF](/docs/images/Charts.gif)
 
