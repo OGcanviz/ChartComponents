@@ -17,9 +17,3 @@
   * [Scatter](scatter.md)
   * [Candle Stick](candle.md)
   * [Gantt](gantt.md)
-
-* About
-
-  * [Canviz](https://www.canviz.com")!
-  
-  
