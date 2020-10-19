@@ -120,13 +120,13 @@ To implement other chart types simply change the **Type** property for the Chart
 The following Types are currently available.
 
 - Pie
-- Solid Gauge
+- Solid Gauge (SolidGauge)
 - Funnel
 - Line
 - Bar
 - Radar
 - Scatter
-- Candle Stick
+- Candle Stick (Candle)
 
 For example, to change the chart to a Solid Gauge chart, select the Chart component, then change the **Type** property to **Solid Gauge**.
 

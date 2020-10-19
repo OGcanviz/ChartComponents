@@ -4,6 +4,9 @@
 
 ![Sample Candle Stick Chart](images/candle.png)
 
+**Type Property**
+To use the Candle Stick chart use **Candle** as the Type property in the Chart component.
+
 The following property values create the sample chart pictured above.
 
 **Title**
