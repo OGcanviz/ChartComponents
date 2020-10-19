@@ -1,3 +1,5 @@
+!["Canviz Logo"](https://ogcanviz.github.io/ChartComponents/images/Canviz-100x100.png)
+
 * Main Concepts
   * [Quick Start](/)
   * [Properties](properties.md)
@@ -18,6 +20,6 @@
 
 * About
 
-  * Brought to you by [Canviz](https://www.canviz.com")!
+  * [Canviz](https://www.canviz.com")!
   
-  !["Canviz Logo"](https://ogcanviz.github.io/ChartComponents/images/Canviz-100x100.png)
+  
