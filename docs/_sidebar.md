@@ -18,6 +18,6 @@
 
 * About
 
-  * Brought to you by the [Canviz](https://www.canviz.com") team!
+  * Brought to you by [Canviz](https://www.canviz.com")!
   
   !["Canviz Logo"](https://ogcanviz.github.io/ChartComponents/images/Canviz-100x100.png)
