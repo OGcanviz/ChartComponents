@@ -16,4 +16,8 @@
   * [Candle Stick](candle.md)
   * [Gantt](gantt.md)
 
-![](https://ogcanviz.github.io/ChartComponents/images/Canviz-100x100.png)
+* About
+
+  Brought to you by the [Canviz](https://www.canviz.com") team!
+  
+  !["Canviz Logo"](https://ogcanviz.github.io/ChartComponents/images/Canviz-100x100.png)
