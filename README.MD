@@ -31,17 +31,17 @@ Essentially, you add the Canviz Power Apps Chart Components to your Power App th
 The chart components evaluate the properties and render the appropriate SVG code to create the charts.  Simple, lightweight, fast, and effective.
 
 ## Contributors ##
-| Roles                                    		| Author(s)                                			|
-| ------------------------------------------- | ------------------------------------------------- |
-| Team Lead / Architect / Docs / Dev / Test    | Todd Baginski (Microsoft MVP, Canviz) @tbag		|
-| Development                            			| Hubert Sui (Canviz) @hubertsui  						|
-| Development                            			| Cloris Sun (Canviz) @cloriss 						|
-| Development                                 | Chad Liu, (Canviz) @chadliuxc   					|
-| Development                                 | Tyler Lu, (Canviz) @TylerLu    					|
-| Development                                 | Catherine Xiao, (Canviz)    					|
-| Testing                                  		| Cathy Cheng, (Canviz)    					|
-| Testing / Dev / Docs       | Matt Schuessler, (Canviz)    					|
-| Testing                        | Christina Wheeler, (Microsoft MVP, Canviz)    					|
+| Author(s)                                			|
+| ------------------------------------------------- |
+| Todd Baginski (Microsoft MVP, Canviz) @tbag		|
+| Hubert Sui (Canviz) @hubertsui  						|
+| Cloris Sun (Canviz) @cloriss 						|
+| Chad Liu, (Canviz) @chadliuxc   					|
+| Tyler Lu, (Canviz) @TylerLu    					|
+| Catherine Xiao, (Canviz)    					|
+| Cathy Cheng, (Canviz)    					|
+| Matt Schuessler, (Canviz)    					|
+| Christina Wheeler, (Microsoft MVP, Canviz)    					|
 
 ### Follow Up
 
