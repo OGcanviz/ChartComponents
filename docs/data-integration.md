@@ -82,13 +82,39 @@ You should now see the following data in the collection. If you do not see any d
     }
   );
   ```
-  
+
 ### Test
 
 1. Hold down the **ALT key on the keyboard** and click the **Process And Bind Data** button.  
 1. You should now see the following data in the chart.
   ![](images/data-integration-complete.png)
   
+> **Note:** This example illustrates a two stage process to acquire the data, then bind it to the chart when a button is clicked.  The example was created like this to make it clear how to do each part.  **This two stage process is not required.**  You can also return and process the data without any user interaction by simply moving the code from both of the button **OnSelect** events to the Power App's **OnStart** event or to an **OnVisible** event for any screen, like this:
+
+```
+  ClearCollect(colMovies, Movies);
+  Set(
+    gblData,
+    {
+        //Use the Genre column to specify the labels
+        labels: ForAll(
+            colMovies.Genre,
+            Genre
+        ),
+        //Use the Votes column to specify the data
+        table: Table(
+            {
+                key: "values",
+                values: ForAll(
+                    colMovies.Votes,
+                    Votes
+                )
+            }
+        )
+    }
+  );
+  ```
+
 ### Celebrate
 
 Congratulations, now you know a pattern to integrate the charts with any data source.
