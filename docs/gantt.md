@@ -39,7 +39,7 @@ Select the newly added chart component, then configure the chart properties.
   }
   ```
 
-- **Options**: Options allow you to configure the look and feel of the chart to a large degree. For example, to set the start date for the chart simply set the gantt.startDate property. Update the Options property with the following code. For more details about the various options properties, please see the dcoumentation below.
+- **Options**: Options allow you to configure the look and feel of the chart to a large degree. For example, to set the start date for the chart simply set the gantt.startDate property. Update the Options property with the following code. For more details about the various options properties, please see the documentation below.
 
   ```javascript
   Table(
