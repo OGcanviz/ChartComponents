@@ -42,6 +42,7 @@ The chart components evaluate the properties and render the appropriate SVG code
 | Cathy Cheng, (Canviz)    					|
 | Matt Schuessler, (Canviz)    					|
 | Christina Wheeler, (Microsoft MVP, Canviz)    					|
+| Emmanuel Gallis (Microsoft MVP) @e-gallis               |
 
 ### Follow Up
 
