@@ -114,6 +114,8 @@ You should now see the following data in the collection. If you do not see any d
     }
   );
   ```
+### Another Approach
+Instead of using the ForAll loop to populate the global variable bound to the data property, you can follow the pattern Jese Navaranjan demonstrates in [this video](https://www.youtube.com/watch?v=wyG-4XoLpvE).  It's quite elegant!  Thanks for sharing, Jese!
 
 ### Celebrate
 
